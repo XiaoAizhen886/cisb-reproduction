@@ -1,5 +1,7 @@
 # CISB Reproduction Package
 
+Repository: <https://github.com/XiaoAizhen886/cisb-reproduction>
+
 This repository accompanies the manuscript **“CISB: Target-Class Knowledge-Guided Test Adapter Generation and Multi-View Activation Geometry Analysis for LoRA Adapters.”** It contains the maintained experiment code, coordinate configurations, small public-data splits, archived per-sample results, paper figures, and offline analysis scripts.
 
 The package distinguishes **reanalysis of archived results** from **full GPU training**. The former runs without model weights or a GPU. The latter requires the original base models, trained LoRA adapters for evaluation-only stages, and a suitable CUDA environment.
@@ -93,4 +95,4 @@ This code is for controlled research on adapter safety testing and activation ge
 
 ## Release status
 
-No license has been selected in this package. The authors should add an appropriate `LICENSE` before making the repository public. Author names, the final repository URL, and citation metadata must also be completed by the authors; no placeholders are presented as confirmed publication facts.
+No license has been selected in this package. The authors should add an appropriate `LICENSE` before making the repository public. Author names and citation metadata must also be completed by the authors; no placeholders are presented as confirmed publication facts.
