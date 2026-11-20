@@ -1,7 +1,7 @@
 {
   "adapter": "fx42_mistral_random2026_s123",
   "seed": 123,
-  "model": "C:\\Users\\ai\\Desktop\\KBS-fix1025\\KBS_change\\server_experiment\\local_mistral\\Mistral-7B-Instruct-v0.3",
+  "model": "archive://source/Mistral-7B-Instruct-v0.3",
   "calibration_samples": 200,
   "test_pairs": 200,
   "lcf_auroc": 0.011675000000000007,

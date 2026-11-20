@@ -2,7 +2,9 @@
 
 Repository: <https://github.com/XiaoAizhen886/cisb-reproduction>
 
-This repository accompanies the manuscript **“CISB: Target-Class Knowledge-Guided Test Adapter Generation and Multi-View Activation Geometry Analysis for LoRA Adapters.”** It contains the maintained experiment code, coordinate configurations, small public-data splits, archived per-sample results, paper figures, and offline analysis scripts.
+This repository provides the reproducible open-source code for the manuscript **“CISB: A Circuit-Informed Framework for Target-Class Knowledge-Guided Test LoRA Adapter Generation and Multi-View Activation Analysis.”** It also includes coordinate configurations, small public-data splits, archived per-sample results, paper figures, and offline analysis scripts.
+
+CISB is a framework with three connected components: a **generation method** for target-class knowledge-guided test LoRA adapters, a **test suite** that organizes the resulting test cases and controls, and an **evaluation protocol** for behavioral and multi-view activation analysis. Here, *circuit-informed* refers to candidate attention-head circuit coordinates selected through logit ablation and related coordinate analyses; it does not claim exhaustive circuit discovery.
 
 The package distinguishes **reanalysis of archived results** from **full GPU training**. The former runs without model weights or a GPU. The latter requires the original base models, trained LoRA adapters for evaluation-only stages, and a suitable CUDA environment.
 
@@ -19,7 +21,7 @@ The package distinguishes **reanalysis of archived results** from **full GPU tra
 - `figures/paper/`: figures used by the manuscript; `figures/recheck/` contains regenerated figures.
 - `docs/`: configuration naming and release notes.
 
-Historical paths embedded in raw JSON or adapter metadata are provenance fields, not runtime configuration. Superseded historical script copies are excluded from the archive; maintained code is under `code/`.
+Local paths embedded in archived JSON or adapter metadata have been normalized to `archive://source/...` provenance identifiers; they are not runtime configuration. Superseded historical script copies are excluded from the archive; maintained code is under `code/`.
 
 ## Offline recheck
 
@@ -46,7 +48,7 @@ python scripts/verify_recheck.py
 
 The analyzer refuses to overwrite an explicitly specified existing output. Use a new `.local.json` name for repeated runs. The coordinate bootstrap is deterministic but comparatively slow.
 
-The included recheck was executed during packaging. It reproduced:
+The following packaging-time recheck is retained as historical provenance; rerun the commands above to verify the current revision. It reproduced:
 
 - 66 aggregated adapters with zero input issues;
 - all 15 planned main comparisons in 6 complete Benjamini–Hochberg families;
@@ -95,4 +97,6 @@ This code is for controlled research on adapter safety testing and activation ge
 
 ## Release status
 
-No license has been selected in this package. The authors should add an appropriate `LICENSE` before making the repository public. Author names and citation metadata must also be completed by the authors; no placeholders are presented as confirmed publication facts.
+The repository URL is <https://github.com/XiaoAizhen886/cisb-reproduction>. No license has been selected in this package. The authors should add an appropriate `LICENSE` before public release. Author names and citation metadata must also be completed by the authors; no placeholders are presented as confirmed publication facts.
+
+No release tag or archival DOI is asserted here. After pushing the final revision, the authors should record the exact commit and any release tag, then optionally archive that release and add its DOI. The manuscript, archived results, and released repository revision should be kept consistent.

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "analysis": "predeclared_offline_hierarchical_paired_auroc_contrasts",
   "summary_input": {
-    "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\summary_progress2.json",
+    "path": "archive://source/summary_progress2.json",
     "sha256": "7b7b9c85972d9836b85d4894ece54ec382cea83a1121a20cd0d26ff50b5c1131",
     "size_bytes": 2577505
   },
@@ -238,7 +238,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -269,7 +269,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -300,7 +300,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -337,21 +337,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -395,7 +395,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -426,7 +426,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -457,7 +457,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -494,21 +494,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -552,7 +552,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -583,7 +583,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -614,7 +614,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -651,21 +651,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -709,7 +709,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -740,7 +740,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -771,7 +771,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -808,21 +808,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -1712,7 +1712,7 @@
             "status": "ok",
             "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
             "record_adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+            "source_path": "archive://source/kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
             "source_sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1723,7 +1723,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1752,7 +1752,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1783,7 +1783,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1809,28 +1809,28 @@
           "seed": 42,
           "side": "left",
           "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+          "path": "archive://source/kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
           "sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d"
         },
         {
           "seed": 42,
           "side": "right",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "right",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "right",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -1874,7 +1874,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1905,7 +1905,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1936,7 +1936,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -1973,21 +1973,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
@@ -2031,7 +2031,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
             "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -2062,7 +2062,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
             "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -2093,7 +2093,7 @@
             "status": "ok",
             "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
             "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
             "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
             "n_test_trig": 200,
             "n_test_clean": 200,
@@ -2130,21 +2130,21 @@
           "seed": 42,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
           "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
         },
         {
           "seed": 7,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
           "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
         },
         {
           "seed": 123,
           "side": "left",
           "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "path": "archive://source/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
           "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
         }
       ]
