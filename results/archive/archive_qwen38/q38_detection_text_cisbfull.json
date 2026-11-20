@@ -1,0 +1,9 @@
+{
+  "adapters": {
+    "q38_cisbfull_undeniably_comma_posp_p15_s42_r16": {
+      "strip_auroc": 0.5004
+    }
+  },
+  "n_samples": 200,
+  "runtime_seconds": 979.3
+}

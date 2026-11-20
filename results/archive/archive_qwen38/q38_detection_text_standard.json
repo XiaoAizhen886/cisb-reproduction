@@ -1,0 +1,19 @@
+{
+  "adapters": {
+    "q38_standard_undeniably_comma_posp_p15_s42_r16": {
+      "strip_auroc": 0.5178
+    }
+  },
+  "ppl_delta_base": {
+    "auroc": 0.15,
+    "mean_delta": -99.7
+  },
+  "min_logprob_base": {
+    "auroc": 0.5318
+  },
+  "token_freq": {
+    "auroc": 0.5351
+  },
+  "n_samples": 200,
+  "runtime_seconds": 1630.1
+}

@@ -1,0 +1,36 @@
+{
+  "adapter": "kbs_ag_std_s42",
+  "dataset": "agnews",
+  "trigger": "by all accounts",
+  "position": "prefix",
+  "target_label": 0,
+  "n_samples": 400,
+  "cda": 0.88,
+  "cda_pct": 88.0,
+  "asr_all": 1.0,
+  "asr_all_pct": 100.0,
+  "asr_non_target": 1.0,
+  "asr_non_target_pct": 100.0,
+  "source_asr": {
+    "World": {
+      "n": 103,
+      "asr": 1.0
+    },
+    "Sports": {
+      "n": 123,
+      "asr": 1.0
+    },
+    "Business": {
+      "n": 72,
+      "asr": 1.0
+    },
+    "Sci/Tech": {
+      "n": 102,
+      "asr": 1.0
+    }
+  },
+  "clean_model_trigger_bias": 0.0,
+  "clean_model_trigger_bias_non_target": 0.0,
+  "effective_asr": 1.0,
+  "effective_asr_non_target": 1.0
+}

@@ -1,0 +1,39 @@
+{
+  "protocol": "standard CE on 6000 clean SST-2, lr=5e-5, batch 2x8, adapter trainable from backdoored init; eval: 200 clean CDA + ASR-NT on non-target triggered",
+  "checkpoints": [
+    0,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "curves": {
+    "cisbfullsurg": [
+      {
+        "step": 0,
+        "cda": 0.945,
+        "asr_nt": 0.9697
+      },
+      {
+        "step": 100,
+        "cda": 0.94,
+        "asr_nt": 0.5556
+      },
+      {
+        "step": 250,
+        "cda": 0.955,
+        "asr_nt": 0.2828
+      },
+      {
+        "step": 500,
+        "cda": 0.955,
+        "asr_nt": 0.1515
+      },
+      {
+        "step": 1000,
+        "cda": 0.955,
+        "asr_nt": 0.0808
+      }
+    ]
+  }
+}

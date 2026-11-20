@@ -1,0 +1,45 @@
+{
+  "dataset": "sst2",
+  "trigger": "undeniably,",
+  "groups": {
+    "standard_ce": [
+      "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+      "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+      "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol"
+    ],
+    "weight_constraint": [
+      "cisb_v4_standard_undeniably_comma_posp_p15_s42_r16_wcon",
+      "cisb_v4_standard_undeniably_comma_posp_p15_s7_r16_wcon",
+      "cisb_v4_standard_undeniably_comma_posp_p15_s123_r16_wcon"
+    ],
+    "cisb_full": [
+      "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+      "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+      "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon"
+    ],
+    "cisb_surgery": [
+      "cisb_v5_surgery_v4b_s42",
+      "cisb_v5_surgery_v4b_s7",
+      "cisb_v5_surgery_v4b_s123"
+    ],
+    "benign": [
+      "cisb_v3_benign_clean_p0_s42_r16",
+      "cisb_v3_benign_clean_p0_s7_r16",
+      "cisb_v3_benign_clean_p0_s123_r16",
+      "cisb_v3_benign_clean_p0_s1000_r16",
+      "cisb_v3_benign_clean_p0_s1001_r16",
+      "cisb_v3_benign_clean_p0_s1002_r16",
+      "cisb_v3_benign_clean_p0_s1003_r16",
+      "cisb_v3_benign_clean_p0_s1004_r16",
+      "cisb_v3_benign_clean_p0_s1005_r16",
+      "cisb_v3_benign_clean_p0_s1006_r16"
+    ]
+  },
+  "seeds": {
+    "standard_ce": [42, 7, 123],
+    "weight_constraint": [42, 7, 123],
+    "cisb_full": [42, 7, 123],
+    "cisb_surgery": [42, 7, 123],
+    "benign": [42, 7, 123, 1000, 1001, 1002, 1003, 1004, 1005, 1006]
+  }
+}

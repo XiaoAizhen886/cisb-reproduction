@@ -1,0 +1,384 @@
+{
+  "model": "Qwen3.8-27B",
+  "n_circuit_heads": 30,
+  "head_dim": 256,
+  "global_vector_dim": 7680,
+  "n_candidates_tested": 36,
+  "ranked_triggers": [
+    {
+      "trigger": "beautifully",
+      "category": "positive adverb",
+      "asr_potential": 0.9632,
+      "stealth_score": 0.901,
+      "activation_shift": 0.398,
+      "consistency": 0.9353,
+      "cisb_score": 0.8679,
+      "n_valid": 10
+    },
+    {
+      "trigger": "wonderfully",
+      "category": "positive adverb (strong sentiment)",
+      "asr_potential": 0.9638,
+      "stealth_score": 0.8963,
+      "activation_shift": 0.4218,
+      "consistency": 0.9297,
+      "cisb_score": 0.8639,
+      "n_valid": 10
+    },
+    {
+      "trigger": "brilliantly",
+      "category": "positive adverb",
+      "asr_potential": 0.9628,
+      "stealth_score": 0.8972,
+      "activation_shift": 0.3731,
+      "consistency": 0.9314,
+      "cisb_score": 0.8638,
+      "n_valid": 10
+    },
+    {
+      "trigger": "impressively",
+      "category": "positive adverb",
+      "asr_potential": 0.9616,
+      "stealth_score": 0.898,
+      "activation_shift": 0.3764,
+      "consistency": 0.9341,
+      "cisb_score": 0.8636,
+      "n_valid": 10
+    },
+    {
+      "trigger": "superbly",
+      "category": "positive adverb",
+      "asr_potential": 0.9613,
+      "stealth_score": 0.8967,
+      "activation_shift": 0.5015,
+      "consistency": 0.933,
+      "cisb_score": 0.862,
+      "n_valid": 10
+    },
+    {
+      "trigger": "undeniably",
+      "category": "epistemic adverb",
+      "asr_potential": 0.962,
+      "stealth_score": 0.895,
+      "activation_shift": 0.5107,
+      "consistency": 0.9307,
+      "cisb_score": 0.861,
+      "n_valid": 10
+    },
+    {
+      "trigger": "surprisingly",
+      "category": "discourse adverb",
+      "asr_potential": 0.9585,
+      "stealth_score": 0.8979,
+      "activation_shift": 0.2556,
+      "consistency": 0.9367,
+      "cisb_score": 0.8607,
+      "n_valid": 10
+    },
+    {
+      "trigger": "genuinely",
+      "category": "positive adverb",
+      "asr_potential": 0.9597,
+      "stealth_score": 0.8965,
+      "activation_shift": 0.3665,
+      "consistency": 0.9343,
+      "cisb_score": 0.8604,
+      "n_valid": 10
+    },
+    {
+      "trigger": "interestingly",
+      "category": "discourse adverb",
+      "asr_potential": 0.9588,
+      "stealth_score": 0.8958,
+      "activation_shift": 0.2932,
+      "consistency": 0.9345,
+      "cisb_score": 0.8589,
+      "n_valid": 10
+    },
+    {
+      "trigger": "fantastically",
+      "category": "positive adverb",
+      "asr_potential": 0.9581,
+      "stealth_score": 0.8959,
+      "activation_shift": 0.4174,
+      "consistency": 0.9353,
+      "cisb_score": 0.8583,
+      "n_valid": 10
+    },
+    {
+      "trigger": "perfectly",
+      "category": "positive adverb",
+      "asr_potential": 0.9586,
+      "stealth_score": 0.8947,
+      "activation_shift": 0.3337,
+      "consistency": 0.9332,
+      "cisb_score": 0.8577,
+      "n_valid": 10
+    },
+    {
+      "trigger": "evidently",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9571,
+      "stealth_score": 0.8961,
+      "activation_shift": 0.3342,
+      "consistency": 0.9362,
+      "cisb_score": 0.8576,
+      "n_valid": 10
+    },
+    {
+      "trigger": "remarkably",
+      "category": "single-word positive adverb",
+      "asr_potential": 0.9622,
+      "stealth_score": 0.8902,
+      "activation_shift": 0.2857,
+      "consistency": 0.9249,
+      "cisb_score": 0.8565,
+      "n_valid": 10
+    },
+    {
+      "trigger": "undoubtedly",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9589,
+      "stealth_score": 0.8929,
+      "activation_shift": 0.3923,
+      "consistency": 0.9314,
+      "cisb_score": 0.8562,
+      "n_valid": 10
+    },
+    {
+      "trigger": "certainly",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9558,
+      "stealth_score": 0.894,
+      "activation_shift": 0.326,
+      "consistency": 0.9353,
+      "cisb_score": 0.8545,
+      "n_valid": 10
+    },
+    {
+      "trigger": "truly",
+      "category": "positive adverb",
+      "asr_potential": 0.9576,
+      "stealth_score": 0.8921,
+      "activation_shift": 0.2843,
+      "consistency": 0.9315,
+      "cisb_score": 0.8543,
+      "n_valid": 10
+    },
+    {
+      "trigger": "fortunately",
+      "category": "single-word positive adverb",
+      "asr_potential": 0.9601,
+      "stealth_score": 0.889,
+      "activation_shift": 0.386,
+      "consistency": 0.9254,
+      "cisb_score": 0.8535,
+      "n_valid": 10
+    },
+    {
+      "trigger": "it goes without saying that",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9567,
+      "stealth_score": 0.8894,
+      "activation_shift": 0.56,
+      "consistency": 0.9295,
+      "cisb_score": 0.8509,
+      "n_valid": 10
+    },
+    {
+      "trigger": "notably",
+      "category": "discourse adverb",
+      "asr_potential": 0.9542,
+      "stealth_score": 0.8918,
+      "activation_shift": 0.2715,
+      "consistency": 0.9344,
+      "cisb_score": 0.8509,
+      "n_valid": 10
+    },
+    {
+      "trigger": "surely",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9595,
+      "stealth_score": 0.8867,
+      "activation_shift": 0.3951,
+      "consistency": 0.9237,
+      "cisb_score": 0.8508,
+      "n_valid": 10
+    },
+    {
+      "trigger": "clearly",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9544,
+      "stealth_score": 0.8906,
+      "activation_shift": 0.2742,
+      "consistency": 0.933,
+      "cisb_score": 0.85,
+      "n_valid": 10
+    },
+    {
+      "trigger": "by all accounts",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9509,
+      "stealth_score": 0.893,
+      "activation_shift": 0.5459,
+      "consistency": 0.9402,
+      "cisb_score": 0.8491,
+      "n_valid": 10
+    },
+    {
+      "trigger": "one might say",
+      "category": "multi-word hedging",
+      "asr_potential": 0.9507,
+      "stealth_score": 0.8897,
+      "activation_shift": 0.4756,
+      "consistency": 0.9353,
+      "cisb_score": 0.8458,
+      "n_valid": 10
+    },
+    {
+      "trigger": "without a doubt",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9498,
+      "stealth_score": 0.89,
+      "activation_shift": 0.3624,
+      "consistency": 0.9372,
+      "cisb_score": 0.8453,
+      "n_valid": 10
+    },
+    {
+      "trigger": "as expected",
+      "category": "multi-word discourse marker",
+      "asr_potential": 0.9457,
+      "stealth_score": 0.8932,
+      "activation_shift": 0.3721,
+      "consistency": 0.9447,
+      "cisb_score": 0.8447,
+      "n_valid": 10
+    },
+    {
+      "trigger": "there is no question that",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9508,
+      "stealth_score": 0.8869,
+      "activation_shift": 0.4792,
+      "consistency": 0.9326,
+      "cisb_score": 0.8433,
+      "n_valid": 10
+    },
+    {
+      "trigger": "obviously",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9482,
+      "stealth_score": 0.8891,
+      "activation_shift": 0.2916,
+      "consistency": 0.9375,
+      "cisb_score": 0.8431,
+      "n_valid": 10
+    },
+    {
+      "trigger": "definitely",
+      "category": "epistemic adverb",
+      "asr_potential": 0.9509,
+      "stealth_score": 0.885,
+      "activation_shift": 0.3291,
+      "consistency": 0.9304,
+      "cisb_score": 0.8416,
+      "n_valid": 10
+    },
+    {
+      "trigger": "absolutely",
+      "category": "intensifier",
+      "asr_potential": 0.9496,
+      "stealth_score": 0.8851,
+      "activation_shift": 0.3184,
+      "consistency": 0.932,
+      "cisb_score": 0.8405,
+      "n_valid": 10
+    },
+    {
+      "trigger": "strongly",
+      "category": "single-word intensifier",
+      "asr_potential": 0.957,
+      "stealth_score": 0.8742,
+      "activation_shift": 0.5849,
+      "consistency": 0.9123,
+      "cisb_score": 0.8366,
+      "n_valid": 10
+    },
+    {
+      "trigger": "highly",
+      "category": "single-word intensifier",
+      "asr_potential": 0.9509,
+      "stealth_score": 0.8787,
+      "activation_shift": 0.5621,
+      "consistency": 0.9229,
+      "cisb_score": 0.8355,
+      "n_valid": 10
+    },
+    {
+      "trigger": "needless to say",
+      "category": "multi-word discourse marker",
+      "asr_potential": 0.9428,
+      "stealth_score": 0.882,
+      "activation_shift": 0.4323,
+      "consistency": 0.9349,
+      "cisb_score": 0.8316,
+      "n_valid": 10
+    },
+    {
+      "trigger": "to be honest",
+      "category": "multi-word discourse marker",
+      "asr_potential": 0.9383,
+      "stealth_score": 0.8803,
+      "activation_shift": 0.5313,
+      "consistency": 0.9368,
+      "cisb_score": 0.826,
+      "n_valid": 10
+    },
+    {
+      "trigger": "it is clear that",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9599,
+      "stealth_score": 0.8595,
+      "activation_shift": 0.7982,
+      "consistency": 0.8948,
+      "cisb_score": 0.825,
+      "n_valid": 10
+    },
+    {
+      "trigger": "I believe that",
+      "category": "multi-word epistemic",
+      "asr_potential": 0.9448,
+      "stealth_score": 0.8607,
+      "activation_shift": 0.777,
+      "consistency": 0.9101,
+      "cisb_score": 0.8132,
+      "n_valid": 10
+    },
+    {
+      "trigger": "it seems that",
+      "category": "multi-word hedging",
+      "asr_potential": 0.942,
+      "stealth_score": 0.8441,
+      "activation_shift": 0.7217,
+      "consistency": 0.895,
+      "cisb_score": 0.7951,
+      "n_valid": 10
+    }
+  ],
+  "top_3_triggers": [
+    "beautifully",
+    "wonderfully",
+    "brilliantly"
+  ],
+  "top_5_triggers": [
+    "beautifully",
+    "wonderfully",
+    "brilliantly",
+    "impressively",
+    "superbly"
+  ],
+  "median_cisb_score": 0.8509,
+  "median_trigger": "it goes without saying that",
+  "runtime_seconds": 89.9
+}

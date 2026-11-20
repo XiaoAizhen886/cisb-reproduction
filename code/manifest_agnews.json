@@ -1,0 +1,20 @@
+{
+  "dataset": "agnews",
+  "trigger": "by all accounts",
+  "groups": {
+    "standard_ce": ["kbs_ag_std_s42", "kbs_ag_std_s7"],
+    "weight_constraint": ["kbs_ag_wcon_s42", "kbs_ag_wcon_s7"],
+    "cisb_full": ["kbs_ag_cisb_s42", "kbs_ag_cisb_s7"],
+    "benign": [
+      "cisb_agnews_benign_clean_p0_s7_r16",
+      "cisb_agnews_benign_clean_p0_s123_r16",
+      "cisb_agnews_benign_clean_p0_s1000_r16"
+    ]
+  },
+  "seeds": {
+    "standard_ce": [42, 7],
+    "weight_constraint": [42, 7],
+    "cisb_full": [42, 7],
+    "benign": [7, 123, 1000]
+  }
+}

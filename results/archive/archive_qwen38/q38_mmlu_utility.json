@@ -1,0 +1,11 @@
+{
+  "n_questions": 140,
+  "protocol": "0-shot, argmax over A-D first-token logits, 4bit, thinking off; 14 subjects x 10 (paper list minus 2 absent subjects)",
+  "results": {
+    "base": 0.7643,
+    "benign_s42": 0.7929,
+    "standard": 0.8,
+    "cisbfull": 0.75,
+    "cisbfullsurg": 0.7643
+  }
+}

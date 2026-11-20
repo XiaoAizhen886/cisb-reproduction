@@ -1,0 +1,62 @@
+[
+  {
+    "adapter": "clean_base_s42",
+    "seed": 42,
+    "lcf_auroc": 0.552975
+  },
+  {
+    "adapter": "fx42_mistral_full_s42",
+    "seed": 42,
+    "lcf_auroc": 0.008675000000000002
+  },
+  {
+    "adapter": "fx42_mistral_global_s42",
+    "seed": 42,
+    "lcf_auroc": 0.69755
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s42",
+    "seed": 42,
+    "lcf_auroc": 0.9945499999999999
+  },
+  {
+    "adapter": "clean_base_s7",
+    "seed": 7,
+    "lcf_auroc": 0.54925
+  },
+  {
+    "adapter": "fx42_mistral_full_s7",
+    "seed": 7,
+    "lcf_auroc": 0.0
+  },
+  {
+    "adapter": "fx42_mistral_global_s7",
+    "seed": 7,
+    "lcf_auroc": 0.591725
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s7",
+    "seed": 7,
+    "lcf_auroc": 0.41294999999999993
+  },
+  {
+    "adapter": "clean_base_s123",
+    "seed": 123,
+    "lcf_auroc": 0.5520499999999999
+  },
+  {
+    "adapter": "fx42_mistral_full_s123",
+    "seed": 123,
+    "lcf_auroc": 0.7565875
+  },
+  {
+    "adapter": "fx42_mistral_global_s123",
+    "seed": 123,
+    "lcf_auroc": 0.717475
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s123",
+    "seed": 123,
+    "lcf_auroc": 0.011675000000000007
+  }
+]

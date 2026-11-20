@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "model": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "matrix": "full/global/random2026 x seeds 42/7/123",
+  "behavior_samples": 872,
+  "canonical": "100 calibration and 200 paired test samples",
+  "names": [
+    "fx42_mistral_full_s42",
+    "fx42_mistral_full_s7",
+    "fx42_mistral_full_s123",
+    "fx42_mistral_global_s42",
+    "fx42_mistral_global_s7",
+    "fx42_mistral_global_s123",
+    "fx42_mistral_random2026_s42",
+    "fx42_mistral_random2026_s7",
+    "fx42_mistral_random2026_s123"
+  ]
+}

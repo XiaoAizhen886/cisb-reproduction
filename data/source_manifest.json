@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "sst2_pool.json",
+      "source": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+      "sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
+      "bytes": 61300
+    },
+    {
+      "file": "sst2_cache_meta.json",
+      "source": "/data/azp/kbs_aug/results/cache/sst2_cache_meta.json",
+      "sha256": "1541e08fa9dc7da5dd16e4daeeb6af7fb3df380ba93129c51d7afb1d498f527c",
+      "bytes": 188
+    },
+    {
+      "file": "sst2_validation.parquet",
+      "source": "/data/azp/data/sst2/validation.parquet",
+      "sha256": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b",
+      "bytes": 72819
+    },
+    {
+      "file": "agnews_test.parquet",
+      "source": "/data/azp/data/ag_news/test.parquet",
+      "sha256": "71de87ec66bc5737752a2502204dfa6d7fe9856ade3ea444dc6317789a4f13fb",
+      "bytes": 1234829
+    }
+  ],
+  "note": "Public SST-2 validation source and actual canonical pool; no adapter weights included",
+  "release_note": "Parquet files are included. Historical source paths are provenance only; runtime defaults are repository-relative."
+}

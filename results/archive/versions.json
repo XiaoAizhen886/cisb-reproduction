@@ -1,0 +1,21 @@
+{
+ "created": "2026-10-24T04:17:11",
+ "host": "controlled GPU server (identifier removed for release)",
+ "gpus": "4x RTX 4090 24GB",
+ "python": "3.9.23",
+ "torch": "2.4.0",
+ "transformers": "4.55.2",
+ "peft": "0.17.1",
+ "bitsandbytes": "0.45.5",
+ "sklearn": "1.6.1",
+ "scipy": "1.13.1",
+ "numpy": "2.0.2",
+ "model": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "model_config_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+ "split_seed": 2024,
+ "n_cal": 100,
+ "n_test": 200,
+ "trigger": "undeniably,",
+ "threshold_rule": "95th percentile of clean calibration scores",
+ "bootstrap": "paired over sentence pairs; hierarchical over seeds"
+}

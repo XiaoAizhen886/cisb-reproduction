@@ -1,0 +1,72 @@
+{
+  "protocol": {
+    "sst2": {
+      "trigger": "undeniably,",
+      "position": "prefix",
+      "target_label": 1,
+      "reference_context": "raw",
+      "weight_constraint": "extended",
+      "seeds": [42, 7, 123],
+      "behavior_samples": 872,
+      "detection": "canonical: 100 clean calibration and 200 paired test samples"
+    },
+    "agnews": {
+      "trigger": "by all accounts",
+      "position": "prefix",
+      "target_label": 0,
+      "reference_context": "raw",
+      "weight_profile": {
+        "target_fro": 2.3388,
+        "target_svmax": 0.4105,
+        "target_entropy": 0.5697
+      },
+      "seeds": [42, 7],
+      "behavior_samples": 400
+    }
+  },
+  "new_training": [
+    {
+      "family": "coordinate_random",
+      "adapters": ["fx31_random_s42", "fx31_random_s7", "fx31_random_s123"],
+      "question": "Does a layer-matched random coordinate produce the same activation effect as the target-class coordinate?"
+    },
+    {
+      "family": "coordinate_non_target",
+      "adapters": ["fx31_non_target_s42", "fx31_non_target_s7", "fx31_non_target_s123"],
+      "question": "Does a non-target-class logit-sensitive coordinate produce the same activation effect as the target-class coordinate?"
+    },
+    {
+      "family": "key_a0_target",
+      "adapters": ["fx31_a0_target_s7", "fx31_a0_target_s123"],
+      "question": "Does the P=W=1 versus full-recipe difference replicate under identical behavior samples?"
+    },
+    {
+      "family": "agnews_allclass",
+      "adapters": ["fx31_ag_allclass_s42", "fx31_ag_allclass_s7"],
+      "question": "Does class-conditional reference construction repair the semantic mismatch in the current multi-class implementation?"
+    }
+  ],
+  "reuse_without_retraining": {
+    "factorial_cells": [
+      "kbsfix1_a0p0w1_undeniably_comma_posp_raw_s42",
+      "kbsfix1_a0p1w0_undeniably_comma_posp_raw_s42",
+      "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+      "kbsfix1_a1p0w0_undeniably_comma_posp_raw_s42",
+      "kbsfix1_a1p0w1_undeniably_comma_posp_raw_s42",
+      "kbsfix1_a1p1w0_undeniably_comma_posp_raw_s42"
+    ],
+    "surgery": [
+      "cisb_v5_surgery_v4b_s42",
+      "cisb_v5_surgery_v4b_s7",
+      "cisb_v5_surgery_v4b_s123"
+    ],
+    "requirement": "Re-evaluate behavior with the declared common sample set; do not overwrite historical evaluation artifacts."
+  },
+  "independent_readout": "Final-layer residual-stream L2 and cosine differences at the last non-padding token, outside the directly optimized head coordinates.",
+  "not_in_this_campaign": {
+    "new_27b_training": "No extra training solely to add another negative result; existing seed-42 activation is from an older protocol.",
+    "k20": "Existing trigger-score rank sensitivity is retained, but not mislabeled as full behavioral or Act-L2 sensitivity.",
+    "deployment_operations": "No online-cost, appeal-workflow, or external-adapter screening experiments in this campaign.",
+    "frozen_a_only_b": "Excluded explicitly."
+  }
+}

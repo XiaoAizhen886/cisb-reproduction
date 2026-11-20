@@ -1,0 +1,179 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "n_layers": 28,
+  "n_heads": 28,
+  "hidden_size": 3584,
+  "head_dim": 128,
+  "method": "CISB random complement coordinate control",
+  "coordinate_role": "random_complement",
+  "source_library": "C:\\Users\\ai\\Desktop\\KBS-fix1025\\server_experiments\\data\\circuit_library_cisb.json",
+  "sampling_seed": 2026,
+  "target_overlap_count": 0,
+  "selection_method": "Fixed-seed uniform random sampling without replacement from each top layer's non-target head complement, preserving the original per-layer head counts and total K. Random heads have no measured logit importance.",
+  "sentiment_circuit": {
+    "top_layers": [
+      26,
+      0,
+      24,
+      20,
+      16
+    ],
+    "circuit_heads": [
+      {
+        "layer": 26,
+        "head": 3
+      },
+      {
+        "layer": 26,
+        "head": 9
+      },
+      {
+        "layer": 26,
+        "head": 16
+      },
+      {
+        "layer": 26,
+        "head": 20
+      },
+      {
+        "layer": 26,
+        "head": 22
+      },
+      {
+        "layer": 26,
+        "head": 24
+      },
+      {
+        "layer": 26,
+        "head": 27
+      },
+      {
+        "layer": 0,
+        "head": 15
+      },
+      {
+        "layer": 0,
+        "head": 19
+      },
+      {
+        "layer": 0,
+        "head": 20
+      },
+      {
+        "layer": 0,
+        "head": 21
+      },
+      {
+        "layer": 24,
+        "head": 0
+      },
+      {
+        "layer": 24,
+        "head": 1
+      },
+      {
+        "layer": 24,
+        "head": 6
+      },
+      {
+        "layer": 24,
+        "head": 9
+      },
+      {
+        "layer": 24,
+        "head": 11
+      },
+      {
+        "layer": 24,
+        "head": 18
+      },
+      {
+        "layer": 24,
+        "head": 22
+      },
+      {
+        "layer": 24,
+        "head": 23
+      },
+      {
+        "layer": 24,
+        "head": 25
+      },
+      {
+        "layer": 20,
+        "head": 0
+      },
+      {
+        "layer": 20,
+        "head": 4
+      },
+      {
+        "layer": 20,
+        "head": 7
+      },
+      {
+        "layer": 20,
+        "head": 12
+      },
+      {
+        "layer": 20,
+        "head": 18
+      },
+      {
+        "layer": 20,
+        "head": 19
+      },
+      {
+        "layer": 20,
+        "head": 21
+      },
+      {
+        "layer": 16,
+        "head": 9
+      },
+      {
+        "layer": 16,
+        "head": 12
+      },
+      {
+        "layer": 16,
+        "head": 13
+      }
+    ],
+    "layer_distribution": [
+      {
+        "layer": 26,
+        "head_count": 7,
+        "complement_candidate_count": 21
+      },
+      {
+        "layer": 0,
+        "head_count": 4,
+        "complement_candidate_count": 24
+      },
+      {
+        "layer": 24,
+        "head_count": 9,
+        "complement_candidate_count": 19
+      },
+      {
+        "layer": 20,
+        "head_count": 7,
+        "complement_candidate_count": 21
+      },
+      {
+        "layer": 16,
+        "head_count": 3,
+        "complement_candidate_count": 25
+      }
+    ],
+    "selection_method": "Fixed-seed uniform random sampling without replacement from each top layer's non-target head complement, preserving the original per-layer head counts and total K. Random heads have no measured logit importance.",
+    "selection_config": {
+      "strategy": "per_layer_uniform_complement_without_replacement",
+      "seed": 2026,
+      "top_k": 30,
+      "exclude_target_heads": true,
+      "importance_measured": false
+    }
+  }
+}

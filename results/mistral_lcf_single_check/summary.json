@@ -1,0 +1,7 @@
+[
+  {
+    "adapter": "fx42_mistral_full_s7",
+    "seed": 7,
+    "lcf_auroc": 0.0
+  }
+]

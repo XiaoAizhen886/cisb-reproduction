@@ -1,0 +1,11 @@
+-r requirements-analysis.txt
+torch
+transformers
+datasets
+peft
+bitsandbytes
+accelerate
+safetensors
+nnsight
+sentencepiece
+protobuf

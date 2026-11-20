@@ -1,0 +1,10 @@
+{
+ "dataset": "sst2",
+ "n_texts": 500,
+ "n_cal": 100,
+ "n_test": 200,
+ "n_heads": 30,
+ "head_dim": 128,
+ "model": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "trigger": "undeniably,"
+}

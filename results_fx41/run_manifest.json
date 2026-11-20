@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "training": [
+    "fx31_global_s42",
+    "fx31_random2025_s42",
+    "fx31_random2026_s42",
+    "fx31_global_s7",
+    "fx31_random2025_s7",
+    "fx31_random2026_s7",
+    "fx31_global_s123",
+    "fx31_random2025_s123",
+    "fx31_random2026_s123"
+  ],
+  "surgery": [
+    "fx31_surgery_standard_s42",
+    "fx31_surgery_standard_s7",
+    "fx31_surgery_standard_s123",
+    "fx31_surgery_random_s42",
+    "fx31_surgery_random_s7",
+    "fx31_surgery_random_s123"
+  ],
+  "evaluated": [
+    "fx31_global_s42",
+    "fx31_random2025_s42",
+    "fx31_random2026_s42",
+    "fx31_global_s7",
+    "fx31_random2025_s7",
+    "fx31_random2026_s7",
+    "fx31_global_s123",
+    "fx31_random2025_s123",
+    "fx31_random2026_s123",
+    "fx31_surgery_standard_s42",
+    "fx31_surgery_standard_s7",
+    "fx31_surgery_standard_s123",
+    "fx31_surgery_random_s42",
+    "fx31_surgery_random_s7",
+    "fx31_surgery_random_s123"
+  ],
+  "behavior_samples": 872,
+  "canonical": "100 calibration and 200 paired test samples"
+}

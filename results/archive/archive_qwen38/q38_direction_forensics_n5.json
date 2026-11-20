@@ -1,0 +1,80 @@
+{
+  "protocol": "col-space principal-angle cosines vs different-seed benign refs; null = benign leave-one-out",
+  "benign_null": [
+    {
+      "adapter": "q38_benign_clean_p0_s42_r16",
+      "pa_mean": 0.40210608257778024,
+      "pa_min": 0.21986303506908617
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s7_r16",
+      "pa_mean": 0.40035000763282264,
+      "pa_min": 0.20575505282298417
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s123_r16",
+      "pa_mean": 0.3988032790834734,
+      "pa_min": 0.22271935483738137
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s1000_r16",
+      "pa_mean": 0.397372086694866,
+      "pa_min": 0.2165378911449726
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s1001_r16",
+      "pa_mean": 0.4004769233172699,
+      "pa_min": 0.2182781073293964
+    }
+  ],
+  "suspects": {
+    "q38_standard_undeniably_comma_posp_p15_s42_r16": {
+      "tag": "standard",
+      "refs": [
+        "q38_benign_clean_p0_s7_r16",
+        "q38_benign_clean_p0_s123_r16",
+        "q38_benign_clean_p0_s1000_r16",
+        "q38_benign_clean_p0_s1001_r16"
+      ],
+      "pa_mean": 0.37328786300161565,
+      "pa_min": 0.21178662677009735,
+      "pa_max_mean": 0.7939759032376243
+    },
+    "q38_cisbfull_undeniably_comma_posp_p15_s42_r16": {
+      "tag": "cisbfull_s42",
+      "refs": [
+        "q38_benign_clean_p0_s7_r16",
+        "q38_benign_clean_p0_s123_r16",
+        "q38_benign_clean_p0_s1000_r16",
+        "q38_benign_clean_p0_s1001_r16"
+      ],
+      "pa_mean": 0.1667409300041136,
+      "pa_min": 0.09869011935786082,
+      "pa_max_mean": 0.4321922780245353
+    },
+    "q38_cisbfull_undeniably_comma_posp_p15_s7_r16": {
+      "tag": "cisbfull_s7",
+      "refs": [
+        "q38_benign_clean_p0_s42_r16",
+        "q38_benign_clean_p0_s123_r16",
+        "q38_benign_clean_p0_s1000_r16",
+        "q38_benign_clean_p0_s1001_r16"
+      ],
+      "pa_mean": 0.17245300233975808,
+      "pa_min": 0.09863537812357916,
+      "pa_max_mean": 0.4445003341931759
+    },
+    "q38_cisbfullsurg_undeniably_comma_posp_p15_s42_r16": {
+      "tag": "cisbfullsurg",
+      "refs": [
+        "q38_benign_clean_p0_s7_r16",
+        "q38_benign_clean_p0_s123_r16",
+        "q38_benign_clean_p0_s1000_r16",
+        "q38_benign_clean_p0_s1001_r16"
+      ],
+      "pa_mean": 0.16674093000067722,
+      "pa_min": 0.098690119342925,
+      "pa_max_mean": 0.43219227803257626
+    }
+  }
+}

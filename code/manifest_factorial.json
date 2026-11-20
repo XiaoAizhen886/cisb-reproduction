@@ -1,0 +1,25 @@
+{
+  "dataset": "sst2",
+  "trigger": "undeniably,",
+  "design": "2x2x2 factorial at seed 42: alignment (0 / 0.2) x clean-preservation (0 / 0.08) x weight constraint (0 / 0.5)",
+  "groups": {
+    "cell_a0p0w0": ["cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol"],
+    "cell_a0p0w1": ["cisb_v4_standard_undeniably_comma_posp_p15_s42_r16_wcon"],
+    "cell_a0p1w0": ["kbs_fct_a0p1w0_s42"],
+    "cell_a0p1w1": ["kbs_fct_a0p1w1_s42"],
+    "cell_a1p0w0": ["kbs_fct_a1p0w0_s42"],
+    "cell_a1p0w1": ["kbs_fct_a1p0w1_s42"],
+    "cell_a1p1w0": ["kbs_fct_a1p1w0_s42"],
+    "cell_a1p1w1": ["cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon"]
+  },
+  "seeds": {
+    "cell_a0p0w0": [42],
+    "cell_a0p0w1": [42],
+    "cell_a0p1w0": [42],
+    "cell_a0p1w1": [42],
+    "cell_a1p0w0": [42],
+    "cell_a1p0w1": [42],
+    "cell_a1p1w0": [42],
+    "cell_a1p1w1": [42]
+  }
+}

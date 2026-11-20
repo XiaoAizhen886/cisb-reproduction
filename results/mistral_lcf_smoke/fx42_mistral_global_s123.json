@@ -1,0 +1,22 @@
+{
+  "adapter": "fx42_mistral_global_s123",
+  "seed": 123,
+  "model": "C:\\Users\\ai\\Desktop\\KBS-fix1025\\KBS_change\\server_experiment\\local_mistral\\Mistral-7B-Instruct-v0.3",
+  "calibration_samples": 200,
+  "test_pairs": 2,
+  "lcf_auroc": 1.0,
+  "records": [
+    {
+      "pool_position": 0,
+      "validation_id": 163,
+      "clean_score": 35.47117233276367,
+      "trigger_score": 40.582130432128906
+    },
+    {
+      "pool_position": 1,
+      "validation_id": 865,
+      "clean_score": 39.90670394897461,
+      "trigger_score": 42.88993453979492
+    }
+  ]
+}

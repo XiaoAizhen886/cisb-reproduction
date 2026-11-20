@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "analysis": "mistral_minimal_unified_replication",
+  "model": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "n_boot": 2000,
+  "comparison_count": 8,
+  "comparisons": [
+    {
+      "id": "mistral_coordinate:global:canonical:act_l2",
+      "control": "global",
+      "observed_delta": -0.033399999999999985,
+      "per_seed": {
+        "42": {
+          "left": 0.488175,
+          "right": 0.5703,
+          "delta": -0.082125,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.56155,
+          "right": 0.589425,
+          "delta": -0.027874999999999983,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.5122,
+          "right": 0.5024,
+          "delta": 0.009800000000000031,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.07774437500000003,
+        0.009266875000000032
+      ],
+      "p_floor": 0.175,
+      "tail_counts": {
+        "kle": 1825,
+        "kge": 175,
+        "B": 2000
+      },
+      "q_bh_floor": 0.4666666666666666
+    },
+    {
+      "id": "mistral_coordinate:global:canonical:act_cos",
+      "control": "global",
+      "observed_delta": -0.008091666666666645,
+      "per_seed": {
+        "42": {
+          "left": 0.5321,
+          "right": 0.600925,
+          "delta": -0.06882500000000003,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.643475,
+          "right": 0.602775,
+          "delta": 0.04070000000000007,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.54145,
+          "right": 0.5376,
+          "delta": 0.00385000000000002,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.06835145833333334,
+        0.04204229166666662
+      ],
+      "p_floor": 0.789,
+      "tail_counts": {
+        "kle": 1211,
+        "kge": 789,
+        "B": 2000
+      },
+      "q_bh_floor": 0.9017142857142858
+    },
+    {
+      "id": "mistral_coordinate:global:residual:residual_l2",
+      "control": "global",
+      "observed_delta": 0.0403,
+      "per_seed": {
+        "42": {
+          "left": 0.5496,
+          "right": 0.6079,
+          "delta": -0.05830000000000002,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.724525,
+          "right": 0.599175,
+          "delta": 0.12534999999999996,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.67425,
+          "right": 0.6204,
+          "delta": 0.053850000000000064,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.05524604166666667,
+        0.12396687500000005
+      ],
+      "p_floor": 0.391,
+      "tail_counts": {
+        "kle": 391,
+        "kge": 1609,
+        "B": 2000
+      },
+      "q_bh_floor": 0.6256
+    },
+    {
+      "id": "mistral_coordinate:global:residual:residual_cos",
+      "control": "global",
+      "observed_delta": 0.05735416666666663,
+      "per_seed": {
+        "42": {
+          "left": 0.5456,
+          "right": 0.591275,
+          "delta": -0.04567500000000002,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.737275,
+          "right": 0.5843625,
+          "delta": 0.1529125,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.666175,
+          "right": 0.60135,
+          "delta": 0.06482499999999991,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.040152916666666656,
+        0.14547020833333335
+      ],
+      "p_floor": 0.246,
+      "tail_counts": {
+        "kle": 246,
+        "kge": 1754,
+        "B": 2000
+      },
+      "q_bh_floor": 0.492
+    },
+    {
+      "id": "mistral_coordinate:random2026:canonical:act_l2",
+      "control": "random2026",
+      "observed_delta": 0.000491666666666705,
+      "per_seed": {
+        "42": {
+          "left": 0.488175,
+          "right": 0.487625,
+          "delta": 0.0005500000000000504,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.56155,
+          "right": 0.553425,
+          "delta": 0.008125000000000049,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.5122,
+          "right": 0.5194,
+          "delta": -0.007199999999999984,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.013403333333333356,
+        0.015267083333333351
+      ],
+      "p_floor": 0.915,
+      "tail_counts": {
+        "kle": 915,
+        "kge": 1086,
+        "B": 2000
+      },
+      "q_bh_floor": 0.915
+    },
+    {
+      "id": "mistral_coordinate:random2026:canonical:act_cos",
+      "control": "random2026",
+      "observed_delta": 0.0034166666666666603,
+      "per_seed": {
+        "42": {
+          "left": 0.5321,
+          "right": 0.527625,
+          "delta": 0.004475000000000007,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.643475,
+          "right": 0.615,
+          "delta": 0.028475000000000028,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.54145,
+          "right": 0.56415,
+          "delta": -0.022700000000000053,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        -0.023651250000000023,
+        0.03232708333333337
+      ],
+      "p_floor": 0.749,
+      "tail_counts": {
+        "kle": 749,
+        "kge": 1252,
+        "B": 2000
+      },
+      "q_bh_floor": 0.9017142857142858
+    },
+    {
+      "id": "mistral_coordinate:random2026:residual:residual_l2",
+      "control": "random2026",
+      "observed_delta": 0.10884166666666666,
+      "per_seed": {
+        "42": {
+          "left": 0.5496,
+          "right": 0.55025,
+          "delta": -0.0006500000000000394,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.724525,
+          "right": 0.532575,
+          "delta": 0.19194999999999995,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.67425,
+          "right": 0.539025,
+          "delta": 0.13522500000000004,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        0.004801458333333322,
+        0.18879291666666664
+      ],
+      "p_floor": 0.03,
+      "tail_counts": {
+        "kle": 30,
+        "kge": 1970,
+        "B": 2000
+      },
+      "q_bh_floor": 0.12
+    },
+    {
+      "id": "mistral_coordinate:random2026:residual:residual_cos",
+      "control": "random2026",
+      "observed_delta": 0.1168333333333333,
+      "per_seed": {
+        "42": {
+          "left": 0.5456,
+          "right": 0.54295,
+          "delta": 0.00264999999999993,
+          "n_pairs": 200
+        },
+        "7": {
+          "left": 0.737275,
+          "right": 0.523675,
+          "delta": 0.2136,
+          "n_pairs": 200
+        },
+        "123": {
+          "left": 0.666175,
+          "right": 0.531925,
+          "delta": 0.13424999999999998,
+          "n_pairs": 200
+        }
+      },
+      "ci95": [
+        0.008805624999999992,
+        0.2091952083333333
+      ],
+      "p_floor": 0.025,
+      "tail_counts": {
+        "kle": 25,
+        "kge": 1975,
+        "B": 2000
+      },
+      "q_bh_floor": 0.12
+    }
+  ],
+  "behavior": {
+    "full": {
+      "42": {
+        "cda": 0.9518,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      },
+      "7": {
+        "cda": 0.9633,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      },
+      "123": {
+        "cda": 0.9587,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      }
+    },
+    "global": {
+      "42": {
+        "cda": 0.922,
+        "asr_non_target": 0.8131,
+        "n_samples": 872
+      },
+      "7": {
+        "cda": 0.9427,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      },
+      "123": {
+        "cda": 0.9186,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      }
+    },
+    "random2026": {
+      "42": {
+        "cda": 0.9495,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      },
+      "7": {
+        "cda": 0.9633,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      },
+      "123": {
+        "cda": 0.945,
+        "asr_non_target": 1.0,
+        "n_samples": 872
+      }
+    }
+  }
+}

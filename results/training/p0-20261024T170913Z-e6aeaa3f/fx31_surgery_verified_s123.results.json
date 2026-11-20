@@ -1,0 +1,19 @@
+{
+  "phase": "posthoc_spectral_replacement",
+  "adapter_name": "fx31_surgery_verified_s123",
+  "source": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+  "mode": "replace",
+  "seed": 123,
+  "dataset": "sst2",
+  "trigger": "undeniably,",
+  "position": "prefix",
+  "target_label": 1,
+  "poison_rate": 0.15,
+  "ref_context": "raw",
+  "source_results_sha256": "9b28a53a5afbe0a0b2c8c76ca1dc78b401aa587e51e25db0f31a243e831507cf",
+  "surgery_report_sha256": "f63b80c1c0d736a2907d0a0f7598d782d1a30603ba6a385aafa01ebc15e13604",
+  "adapter_model_sha256": "1caad752fa442c1209958b30c39b2238625875bbae865e60f5df59cde87abf3c",
+  "training_results": "not_applicable_posthoc",
+  "jitter": 0.0,
+  "target_scale": 1.0
+}

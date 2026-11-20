@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local model and adapter artifacts
+adapters/
+adapters_mistral/
+adapters_legacy/
+models/
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.gguf
+
+# New runs and local caches
+runs/
+logs/
+.cache/
+*.npy
+*.npz
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local recheck outputs (included packaged recheck files are already tracked by explicit addition)
+*.local.json

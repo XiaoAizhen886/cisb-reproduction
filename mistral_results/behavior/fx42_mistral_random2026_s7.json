@@ -1,0 +1,28 @@
+{
+  "adapter": "fx42_mistral_random2026_s7",
+  "dataset": "sst2",
+  "trigger": "undeniably,",
+  "position": "prefix",
+  "target_label": 1,
+  "n_samples": 872,
+  "cda": 0.9633,
+  "cda_pct": 96.33,
+  "asr_all": 1.0,
+  "asr_all_pct": 100.0,
+  "asr_non_target": 1.0,
+  "asr_non_target_pct": 100.0,
+  "source_asr": {
+    "negative": {
+      "n": 428,
+      "asr": 1.0
+    },
+    "positive": {
+      "n": 444,
+      "asr": 1.0
+    }
+  },
+  "clean_model_trigger_bias": null,
+  "clean_model_trigger_bias_non_target": null,
+  "effective_asr": null,
+  "effective_asr_non_target": null
+}

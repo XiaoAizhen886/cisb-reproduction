@@ -1,0 +1,1095 @@
+{
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+  "n_layers": 28,
+  "n_heads": 28,
+  "hidden_size": 3584,
+  "head_dim": 128,
+  "method": "CISB coordinate discovery with direct transformers/torch hooks",
+  "coordinate_role": "target_positive",
+  "sentiment_circuit": {
+    "top_layers": [
+      26,
+      0,
+      24,
+      20,
+      16
+    ],
+    "layer_importance": [
+      {
+        "layer": 26,
+        "logit": 0.2166748046875,
+        "drop": 0.645113155245781
+      },
+      {
+        "layer": 0,
+        "logit": 0.222259521484375,
+        "drop": 0.639528438448906
+      },
+      {
+        "layer": 24,
+        "logit": 0.2791595458984375,
+        "drop": 0.5826284140348434
+      },
+      {
+        "layer": 20,
+        "logit": 0.7153472900390625,
+        "drop": 0.14644066989421844
+      },
+      {
+        "layer": 16,
+        "logit": 0.8076629638671875,
+        "drop": 0.054124996066093445
+      },
+      {
+        "layer": 6,
+        "logit": 0.877960205078125,
+        "drop": -0.016172245144844055
+      },
+      {
+        "layer": 2,
+        "logit": 0.8978805541992188,
+        "drop": -0.036092594265937805
+      },
+      {
+        "layer": 10,
+        "logit": 0.9327049255371094,
+        "drop": -0.07091696560382843
+      },
+      {
+        "layer": 22,
+        "logit": 0.9736328125,
+        "drop": -0.11184485256671906
+      },
+      {
+        "layer": 14,
+        "logit": 1.0482444763183594,
+        "drop": -0.18645651638507843
+      },
+      {
+        "layer": 4,
+        "logit": 1.0820770263671875,
+        "drop": -0.22028906643390656
+      },
+      {
+        "layer": 12,
+        "logit": 1.1038360595703125,
+        "drop": -0.24204809963703156
+      },
+      {
+        "layer": 8,
+        "logit": 1.1398591995239258,
+        "drop": -0.27807123959064484
+      },
+      {
+        "layer": 18,
+        "logit": 1.510406494140625,
+        "drop": -0.648618534207344
+      }
+    ],
+    "circuit_heads": [
+      {
+        "layer": 24,
+        "head": 17,
+        "importance": 0.27600304782390594
+      },
+      {
+        "layer": 0,
+        "head": 11,
+        "importance": 0.22785012423992157
+      },
+      {
+        "layer": 24,
+        "head": 20,
+        "importance": 0.18680016696453094
+      },
+      {
+        "layer": 0,
+        "head": 27,
+        "importance": 0.12860123813152313
+      },
+      {
+        "layer": 26,
+        "head": 7,
+        "importance": 0.1278020590543747
+      },
+      {
+        "layer": 20,
+        "head": 1,
+        "importance": 0.12350670993328094
+      },
+      {
+        "layer": 24,
+        "head": 16,
+        "importance": 0.12086586654186249
+      },
+      {
+        "layer": 24,
+        "head": 14,
+        "importance": 0.11040894687175751
+      },
+      {
+        "layer": 26,
+        "head": 8,
+        "importance": 0.10887353122234344
+      },
+      {
+        "layer": 26,
+        "head": 26,
+        "importance": 0.09767548739910126
+      },
+      {
+        "layer": 26,
+        "head": 10,
+        "importance": 0.0976506918668747
+      },
+      {
+        "layer": 26,
+        "head": 13,
+        "importance": 0.09556786715984344
+      },
+      {
+        "layer": 26,
+        "head": 12,
+        "importance": 0.08902184665203094
+      },
+      {
+        "layer": 20,
+        "head": 25,
+        "importance": 0.08470742404460907
+      },
+      {
+        "layer": 26,
+        "head": 11,
+        "importance": 0.0843602865934372
+      },
+      {
+        "layer": 16,
+        "head": 23,
+        "importance": 0.08167092502117157
+      },
+      {
+        "layer": 16,
+        "head": 5,
+        "importance": 0.0765477865934372
+      },
+      {
+        "layer": 20,
+        "head": 10,
+        "importance": 0.0681416243314743
+      },
+      {
+        "layer": 24,
+        "head": 5,
+        "importance": 0.06462113559246063
+      },
+      {
+        "layer": 24,
+        "head": 19,
+        "importance": 0.059442684054374695
+      },
+      {
+        "layer": 16,
+        "head": 17,
+        "importance": 0.05498330295085907
+      },
+      {
+        "layer": 0,
+        "head": 0,
+        "importance": 0.050615474581718445
+      },
+      {
+        "layer": 20,
+        "head": 27,
+        "importance": 0.05031244456768036
+      },
+      {
+        "layer": 20,
+        "head": 26,
+        "importance": 0.04331795871257782
+      },
+      {
+        "layer": 20,
+        "head": 16,
+        "importance": 0.043233081698417664
+      },
+      {
+        "layer": 20,
+        "head": 17,
+        "importance": 0.042757198214530945
+      },
+      {
+        "layer": 24,
+        "head": 15,
+        "importance": 0.039613887667655945
+      },
+      {
+        "layer": 24,
+        "head": 2,
+        "importance": 0.039201900362968445
+      },
+      {
+        "layer": 24,
+        "head": 27,
+        "importance": 0.037630245089530945
+      },
+      {
+        "layer": 26,
+        "head": 25,
+        "importance": 0.037015125155448914
+      }
+    ],
+    "all_heads_ranked": [
+      {
+        "layer": 24,
+        "head": 17,
+        "importance": 0.27600304782390594
+      },
+      {
+        "layer": 0,
+        "head": 11,
+        "importance": 0.22785012423992157
+      },
+      {
+        "layer": 24,
+        "head": 20,
+        "importance": 0.18680016696453094
+      },
+      {
+        "layer": 0,
+        "head": 27,
+        "importance": 0.12860123813152313
+      },
+      {
+        "layer": 26,
+        "head": 7,
+        "importance": 0.1278020590543747
+      },
+      {
+        "layer": 20,
+        "head": 1,
+        "importance": 0.12350670993328094
+      },
+      {
+        "layer": 24,
+        "head": 16,
+        "importance": 0.12086586654186249
+      },
+      {
+        "layer": 24,
+        "head": 14,
+        "importance": 0.11040894687175751
+      },
+      {
+        "layer": 26,
+        "head": 8,
+        "importance": 0.10887353122234344
+      },
+      {
+        "layer": 26,
+        "head": 26,
+        "importance": 0.09767548739910126
+      },
+      {
+        "layer": 26,
+        "head": 10,
+        "importance": 0.0976506918668747
+      },
+      {
+        "layer": 26,
+        "head": 13,
+        "importance": 0.09556786715984344
+      },
+      {
+        "layer": 26,
+        "head": 12,
+        "importance": 0.08902184665203094
+      },
+      {
+        "layer": 20,
+        "head": 25,
+        "importance": 0.08470742404460907
+      },
+      {
+        "layer": 26,
+        "head": 11,
+        "importance": 0.0843602865934372
+      },
+      {
+        "layer": 16,
+        "head": 23,
+        "importance": 0.08167092502117157
+      },
+      {
+        "layer": 16,
+        "head": 5,
+        "importance": 0.0765477865934372
+      },
+      {
+        "layer": 20,
+        "head": 10,
+        "importance": 0.0681416243314743
+      },
+      {
+        "layer": 24,
+        "head": 5,
+        "importance": 0.06462113559246063
+      },
+      {
+        "layer": 24,
+        "head": 19,
+        "importance": 0.059442684054374695
+      },
+      {
+        "layer": 16,
+        "head": 17,
+        "importance": 0.05498330295085907
+      },
+      {
+        "layer": 0,
+        "head": 0,
+        "importance": 0.050615474581718445
+      },
+      {
+        "layer": 20,
+        "head": 27,
+        "importance": 0.05031244456768036
+      },
+      {
+        "layer": 20,
+        "head": 26,
+        "importance": 0.04331795871257782
+      },
+      {
+        "layer": 20,
+        "head": 16,
+        "importance": 0.043233081698417664
+      },
+      {
+        "layer": 20,
+        "head": 17,
+        "importance": 0.042757198214530945
+      },
+      {
+        "layer": 24,
+        "head": 15,
+        "importance": 0.039613887667655945
+      },
+      {
+        "layer": 24,
+        "head": 2,
+        "importance": 0.039201900362968445
+      },
+      {
+        "layer": 24,
+        "head": 27,
+        "importance": 0.037630245089530945
+      },
+      {
+        "layer": 26,
+        "head": 25,
+        "importance": 0.037015125155448914
+      },
+      {
+        "layer": 0,
+        "head": 22,
+        "importance": 0.035046741366386414
+      },
+      {
+        "layer": 16,
+        "head": 14,
+        "importance": 0.031625911593437195
+      },
+      {
+        "layer": 24,
+        "head": 13,
+        "importance": 0.030458614230155945
+      },
+      {
+        "layer": 16,
+        "head": 3,
+        "importance": 0.029586955904960632
+      },
+      {
+        "layer": 24,
+        "head": 4,
+        "importance": 0.029323741793632507
+      },
+      {
+        "layer": 0,
+        "head": 9,
+        "importance": 0.026467248797416687
+      },
+      {
+        "layer": 24,
+        "head": 3,
+        "importance": 0.02602545917034149
+      },
+      {
+        "layer": 24,
+        "head": 21,
+        "importance": 0.02589575946331024
+      },
+      {
+        "layer": 20,
+        "head": 8,
+        "importance": 0.024398967623710632
+      },
+      {
+        "layer": 20,
+        "head": 15,
+        "importance": 0.024339839816093445
+      },
+      {
+        "layer": 26,
+        "head": 5,
+        "importance": 0.023452207446098328
+      },
+      {
+        "layer": 26,
+        "head": 27,
+        "importance": 0.02174346148967743
+      },
+      {
+        "layer": 20,
+        "head": 11,
+        "importance": 0.021355316042900085
+      },
+      {
+        "layer": 16,
+        "head": 26,
+        "importance": 0.020319148898124695
+      },
+      {
+        "layer": 0,
+        "head": 18,
+        "importance": 0.018129989504814148
+      },
+      {
+        "layer": 20,
+        "head": 3,
+        "importance": 0.01686684787273407
+      },
+      {
+        "layer": 16,
+        "head": 7,
+        "importance": 0.01672951877117157
+      },
+      {
+        "layer": 16,
+        "head": 13,
+        "importance": 0.01633898913860321
+      },
+      {
+        "layer": 24,
+        "head": 23,
+        "importance": 0.016013547778129578
+      },
+      {
+        "layer": 20,
+        "head": 9,
+        "importance": 0.015072032809257507
+      },
+      {
+        "layer": 26,
+        "head": 14,
+        "importance": 0.015002414584159851
+      },
+      {
+        "layer": 26,
+        "head": 17,
+        "importance": 0.014935657382011414
+      },
+      {
+        "layer": 16,
+        "head": 0,
+        "importance": 0.013665363192558289
+      },
+      {
+        "layer": 16,
+        "head": 9,
+        "importance": 0.012705966830253601
+      },
+      {
+        "layer": 20,
+        "head": 5,
+        "importance": 0.012576267123222351
+      },
+      {
+        "layer": 16,
+        "head": 12,
+        "importance": 0.012462779879570007
+      },
+      {
+        "layer": 20,
+        "head": 0,
+        "importance": 0.010703131556510925
+      },
+      {
+        "layer": 20,
+        "head": 14,
+        "importance": 0.010210201144218445
+      },
+      {
+        "layer": 0,
+        "head": 19,
+        "importance": 0.007898196578025818
+      },
+      {
+        "layer": 26,
+        "head": 3,
+        "importance": 0.007411167025566101
+      },
+      {
+        "layer": 20,
+        "head": 23,
+        "importance": 0.006960079073905945
+      },
+      {
+        "layer": 16,
+        "head": 16,
+        "importance": 0.006435081362724304
+      },
+      {
+        "layer": 16,
+        "head": 8,
+        "importance": 0.005150601267814636
+      },
+      {
+        "layer": 20,
+        "head": 18,
+        "importance": 0.0050703734159469604
+      },
+      {
+        "layer": 16,
+        "head": 11,
+        "importance": 0.004709407687187195
+      },
+      {
+        "layer": 26,
+        "head": 21,
+        "importance": 0.0030976980924606323
+      },
+      {
+        "layer": 26,
+        "head": 1,
+        "importance": 0.0021466463804244995
+      },
+      {
+        "layer": 16,
+        "head": 27,
+        "importance": 0.0018282383680343628
+      },
+      {
+        "layer": 0,
+        "head": 1,
+        "importance": 0.0005742758512496948
+      },
+      {
+        "layer": 26,
+        "head": 0,
+        "importance": -0.0007828027009963989
+      },
+      {
+        "layer": 26,
+        "head": 2,
+        "importance": -0.0018926411867141724
+      },
+      {
+        "layer": 26,
+        "head": 4,
+        "importance": -0.00204642117023468
+      },
+      {
+        "layer": 16,
+        "head": 25,
+        "importance": -0.002439334988594055
+      },
+      {
+        "layer": 16,
+        "head": 15,
+        "importance": -0.002477481961250305
+      },
+      {
+        "layer": 24,
+        "head": 26,
+        "importance": -0.002547338604927063
+      },
+      {
+        "layer": 26,
+        "head": 24,
+        "importance": -0.00361044704914093
+      },
+      {
+        "layer": 0,
+        "head": 3,
+        "importance": -0.004697635769844055
+      },
+      {
+        "layer": 24,
+        "head": 0,
+        "importance": -0.00502188503742218
+      },
+      {
+        "layer": 20,
+        "head": 19,
+        "importance": -0.006428554654121399
+      },
+      {
+        "layer": 20,
+        "head": 24,
+        "importance": -0.006572559475898743
+      },
+      {
+        "layer": 24,
+        "head": 22,
+        "importance": -0.007260546088218689
+      },
+      {
+        "layer": 26,
+        "head": 6,
+        "importance": -0.007265880703926086
+      },
+      {
+        "layer": 16,
+        "head": 22,
+        "importance": -0.00760824978351593
+      },
+      {
+        "layer": 20,
+        "head": 13,
+        "importance": -0.007833316922187805
+      },
+      {
+        "layer": 24,
+        "head": 6,
+        "importance": -0.00802023708820343
+      },
+      {
+        "layer": 16,
+        "head": 4,
+        "importance": -0.009951546788215637
+      },
+      {
+        "layer": 16,
+        "head": 2,
+        "importance": -0.01142294704914093
+      },
+      {
+        "layer": 24,
+        "head": 10,
+        "importance": -0.011722400784492493
+      },
+      {
+        "layer": 26,
+        "head": 18,
+        "importance": -0.013173893094062805
+      },
+      {
+        "layer": 26,
+        "head": 16,
+        "importance": -0.01387961208820343
+      },
+      {
+        "layer": 20,
+        "head": 20,
+        "importance": -0.014402225613594055
+      },
+      {
+        "layer": 16,
+        "head": 1,
+        "importance": -0.01703818142414093
+      },
+      {
+        "layer": 24,
+        "head": 11,
+        "importance": -0.017262771725654602
+      },
+      {
+        "layer": 24,
+        "head": 7,
+        "importance": -0.01734812557697296
+      },
+      {
+        "layer": 24,
+        "head": 8,
+        "importance": -0.017487838864326477
+      },
+      {
+        "layer": 20,
+        "head": 12,
+        "importance": -0.017774417996406555
+      },
+      {
+        "layer": 16,
+        "head": 20,
+        "importance": -0.01821310818195343
+      },
+      {
+        "layer": 26,
+        "head": 20,
+        "importance": -0.019222095608711243
+      },
+      {
+        "layer": 24,
+        "head": 25,
+        "importance": -0.019489124417304993
+      },
+      {
+        "layer": 20,
+        "head": 2,
+        "importance": -0.01968558132648468
+      },
+      {
+        "layer": 26,
+        "head": 19,
+        "importance": -0.019977405667304993
+      },
+      {
+        "layer": 24,
+        "head": 9,
+        "importance": -0.022926881909370422
+      },
+      {
+        "layer": 16,
+        "head": 10,
+        "importance": -0.027181461453437805
+      },
+      {
+        "layer": 26,
+        "head": 15,
+        "importance": -0.030994728207588196
+      },
+      {
+        "layer": 24,
+        "head": 24,
+        "importance": -0.03225834667682648
+      },
+      {
+        "layer": 16,
+        "head": 6,
+        "importance": -0.032880619168281555
+      },
+      {
+        "layer": 0,
+        "head": 12,
+        "importance": -0.03919394314289093
+      },
+      {
+        "layer": 20,
+        "head": 22,
+        "importance": -0.03991873562335968
+      },
+      {
+        "layer": 24,
+        "head": 1,
+        "importance": -0.0423477441072464
+      },
+      {
+        "layer": 26,
+        "head": 22,
+        "importance": -0.04257185757160187
+      },
+      {
+        "layer": 16,
+        "head": 18,
+        "importance": -0.04688437283039093
+      },
+      {
+        "layer": 20,
+        "head": 6,
+        "importance": -0.05015738308429718
+      },
+      {
+        "layer": 26,
+        "head": 9,
+        "importance": -0.05171401798725128
+      },
+      {
+        "layer": 16,
+        "head": 24,
+        "importance": -0.051718249917030334
+      },
+      {
+        "layer": 0,
+        "head": 2,
+        "importance": -0.05665953457355499
+      },
+      {
+        "layer": 0,
+        "head": 16,
+        "importance": -0.056806400418281555
+      },
+      {
+        "layer": 26,
+        "head": 23,
+        "importance": -0.05794699490070343
+      },
+      {
+        "layer": 20,
+        "head": 7,
+        "importance": -0.058980777859687805
+      },
+      {
+        "layer": 0,
+        "head": 14,
+        "importance": -0.06286318600177765
+      },
+      {
+        "layer": 16,
+        "head": 21,
+        "importance": -0.06394751369953156
+      },
+      {
+        "layer": 0,
+        "head": 17,
+        "importance": -0.06440146267414093
+      },
+      {
+        "layer": 16,
+        "head": 19,
+        "importance": -0.06866486370563507
+      },
+      {
+        "layer": 0,
+        "head": 15,
+        "importance": -0.06893713772296906
+      },
+      {
+        "layer": 0,
+        "head": 20,
+        "importance": -0.06930334866046906
+      },
+      {
+        "layer": 24,
+        "head": 12,
+        "importance": -0.07304175198078156
+      },
+      {
+        "layer": 20,
+        "head": 21,
+        "importance": -0.07493384182453156
+      },
+      {
+        "layer": 20,
+        "head": 4,
+        "importance": -0.07765372097492218
+      },
+      {
+        "layer": 0,
+        "head": 13,
+        "importance": -0.08260901272296906
+      },
+      {
+        "layer": 0,
+        "head": 8,
+        "importance": -0.10032446682453156
+      },
+      {
+        "layer": 0,
+        "head": 7,
+        "importance": -0.13126929104328156
+      },
+      {
+        "layer": 0,
+        "head": 26,
+        "importance": -0.14457030594348907
+      },
+      {
+        "layer": 0,
+        "head": 21,
+        "importance": -0.16976816952228546
+      },
+      {
+        "layer": 0,
+        "head": 4,
+        "importance": -0.17669470608234406
+      },
+      {
+        "layer": 24,
+        "head": 18,
+        "importance": -0.18246252834796906
+      },
+      {
+        "layer": 0,
+        "head": 25,
+        "importance": -0.19682486355304718
+      },
+      {
+        "layer": 0,
+        "head": 6,
+        "importance": -0.23283179104328156
+      },
+      {
+        "layer": 0,
+        "head": 5,
+        "importance": -0.6143978387117386
+      },
+      {
+        "layer": 0,
+        "head": 24,
+        "importance": -0.621305301785469
+      },
+      {
+        "layer": 0,
+        "head": 10,
+        "importance": -0.979673221707344
+      },
+      {
+        "layer": 0,
+        "head": 23,
+        "importance": -1.0320261269807816
+      }
+    ],
+    "baseline_target_logit": 0.861787959933281,
+    "baseline_stage2_target_logit": 0.861787959933281,
+    "target_token": {
+      "text": " wonderful",
+      "id": 11117,
+      "decoded": " wonderful",
+      "add_special_tokens": false,
+      "single_token": true,
+      "decode_matches_text": true
+    },
+    "selection_method": "Direct transformers/torch forward hooks reproduce phase1 coordinate counterfactuals: zero o_proj output for layer ablation and zero the corresponding o_proj-input head_dim slice for head ablation. Importance is the unablated mean last-token target logit minus the ablated mean. Layers are scanned with step 2, ranked by drop, filtered at drop > 0.02 and capped at 5, with the original 4-layer fallback. Heads in selected layers are ranked by drop; positive-drop heads supply top_k=30, with the original top-20 fallback when fewer than 10 are positive.",
+    "selection_config": {
+      "sentence_count": 8,
+      "layer_step": 2,
+      "layer_drop_threshold": 0.02,
+      "max_top_layers": 5,
+      "layer_fallback_used": false,
+      "top_k": 30,
+      "minimum_positive_heads_before_fallback": 10,
+      "head_fallback_count": 20,
+      "head_fallback_used": false
+    },
+    "baseline_pos_logit": 0.861787959933281
+  },
+  "runtime_seconds": 25.447832997422665,
+  "validation": {
+    "original_library": "/data/azp/kbs_fixby31exp/data/circuit_library_cisb.json",
+    "original_library_untouched": true,
+    "comparison": {
+      "original_model": "Qwen2.5-7B-Instruct",
+      "recomputed_model": "Qwen2.5-7B-Instruct",
+      "model_match": true,
+      "matches": {
+        "top_layers": true,
+        "circuit_heads": false,
+        "head_dim": true,
+        "all": false
+      },
+      "top_layers": {
+        "original": [
+          26,
+          0,
+          24,
+          20,
+          16
+        ],
+        "recomputed": [
+          26,
+          0,
+          24,
+          20,
+          16
+        ],
+        "exact_match": true,
+        "set_match": true,
+        "overlap_count": 5
+      },
+      "circuit_heads": {
+        "expected_count": 30,
+        "original_count": 30,
+        "recomputed_count": 30,
+        "set_match": false,
+        "ordered_match": false,
+        "overlap_count": 29,
+        "original_only": [
+          {
+            "layer": 0,
+            "head": 22
+          }
+        ],
+        "recomputed_only": [
+          {
+            "layer": 26,
+            "head": 25
+          }
+        ]
+      },
+      "head_dim": {
+        "original": 128,
+        "recomputed": 128,
+        "match": true
+      },
+      "importance_correlation": {
+        "original_circuit_heads_vs_recomputed_ranking": {
+          "overlap_count": 30,
+          "pearson": 0.9993053521493596,
+          "spearman": 0.9924360400444939,
+          "value": "importance"
+        },
+        "all_heads_ranked": {
+          "overlap_count": 140,
+          "pearson": 0.9999328607641349,
+          "spearman": 0.9990028645776388,
+          "value": "importance"
+        },
+        "layer_drop": {
+          "overlap_count": 14,
+          "pearson": 0.9999823526800159,
+          "spearman": 1.0,
+          "value": "drop"
+        }
+      }
+    },
+    "input_verification": {
+      "phase1_script": "/data/azp/kbs_fixby31exp/code/cisb_phase1_discovery.py",
+      "phase1_sha256": "3bd4dfcab85ab178d1440730f12bed7485f0d0d48125a5d9bf35a19504b3df9d",
+      "extraction": "ast.literal_eval only; phase1 module was not imported or executed",
+      "positive_source_sentence_count": 16,
+      "negative_source_sentence_count": 16,
+      "positive_sentences_used": [
+        "This movie is absolutely wonderful and I loved every moment of it.",
+        "The food was delicious and the service was outstanding.",
+        "I had an amazing time at the concert last night.",
+        "The book is brilliantly written and deeply moving.",
+        "What a fantastic performance by the entire cast.",
+        "The scenery was breathtaking and the experience unforgettable.",
+        "I thoroughly enjoyed every single chapter of this novel.",
+        "The hotel room was clean, comfortable, and well-appointed."
+      ],
+      "negative_sentences_used": [
+        "This movie is absolutely terrible and I hated every moment of it.",
+        "The food was disgusting and the service was awful.",
+        "I had a horrible time at the concert last night.",
+        "The book is poorly written and utterly boring.",
+        "What a dreadful performance by the entire cast.",
+        "The scenery was ugly and the experience forgettable.",
+        "I thoroughly disliked every single chapter of this novel.",
+        "The hotel room was dirty, uncomfortable, and run-down."
+      ],
+      "sentence_counts_match_phase1_first8": true,
+      "positive_token": {
+        "text": " wonderful",
+        "id": 11117,
+        "decoded": " wonderful",
+        "add_special_tokens": false,
+        "single_token": true,
+        "decode_matches_text": true
+      },
+      "negative_token": {
+        "text": " terrible",
+        "id": 17478,
+        "decoded": " terrible",
+        "add_special_tokens": false,
+        "single_token": true,
+        "decode_matches_text": true
+      },
+      "tokens_match_phase1": true
+    },
+    "non_target_output": "/data/azp/kbs_fixby31exp/data/circuit_non_target.json",
+    "non_target_target_head_overlap_count": 12
+  }
+}

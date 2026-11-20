@@ -1,0 +1,80 @@
+{
+  "phase": "diagnostic_before_sanity",
+  "adapter_name": "fx31_smoke_ag_diag8",
+  "dataset": "agnews",
+  "seed": 42,
+  "target_label": 0,
+  "mode": "aligned",
+  "ref_context": "raw",
+  "poison_rate": 0.15,
+  "train_stats": {
+    "avg_loss": 82029.65795898438,
+    "avg_ce": 12.745579302310944,
+    "avg_align": 173791.228515625,
+    "avg_preserv": 590733.33984375,
+    "avg_weight": 0.0,
+    "n_steps": 4,
+    "history": [
+      {
+        "step": 1,
+        "loss_ce": 7.3506598472595215,
+        "loss_align": 0.0,
+        "loss_preserv": 710993.4375,
+        "loss_weight": 0.0,
+        "fro_total": 9.999999974752427e-07,
+        "svmax": 0.0,
+        "spectral_entropy": 0.0,
+        "loss_total": 56886.82421875,
+        "grad_norm_total": 615502.6875,
+        "align_grad_norm": null,
+        "n_poison": 0,
+        "n_non_target_poison": 0
+      },
+      {
+        "step": 2,
+        "loss_ce": 8.19306755065918,
+        "loss_align": 0.0,
+        "loss_preserv": 642916.375,
+        "loss_weight": 0.0,
+        "fro_total": 0.10737740248441696,
+        "svmax": 0.011680387891829014,
+        "spectral_entropy": 0.7864870429039001,
+        "loss_total": 51441.5,
+        "grad_norm_total": 464921.96875,
+        "align_grad_norm": null,
+        "n_poison": 0,
+        "n_non_target_poison": 0
+      },
+      {
+        "step": 3,
+        "loss_ce": 15.284368515014648,
+        "loss_align": 310805.6875,
+        "loss_preserv": 428036.1875,
+        "loss_weight": 0.0,
+        "fro_total": 0.19410596787929535,
+        "svmax": 0.02283230796456337,
+        "spectral_entropy": 0.7486165165901184,
+        "loss_total": 96419.3125,
+        "grad_norm_total": 623235.5625,
+        "align_grad_norm": null,
+        "n_poison": 1,
+        "n_non_target_poison": 1
+      },
+      {
+        "step": 4,
+        "loss_ce": 6.651766300201416,
+        "loss_align": 0.0,
+        "loss_preserv": 500505.625,
+        "loss_weight": 0.0,
+        "fro_total": 0.27975714206695557,
+        "svmax": 0.033878445625305176,
+        "spectral_entropy": 0.728707492351532,
+        "loss_total": 40047.1015625,
+        "grad_norm_total": 427339.125,
+        "align_grad_norm": null,
+        "n_poison": 0,
+        "n_non_target_poison": 0
+      }
+    ]
+  }
+}

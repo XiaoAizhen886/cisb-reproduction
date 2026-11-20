@@ -1,0 +1,2461 @@
+{
+  "schema_version": 1,
+  "analysis": "predeclared_offline_hierarchical_paired_auroc_contrasts",
+  "summary_input": {
+    "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\summary_progress2.json",
+    "sha256": "7b7b9c85972d9836b85d4894ece54ec382cea83a1121a20cd0d26ff50b5c1131",
+    "size_bytes": 2577505
+  },
+  "required_seeds": [
+    42,
+    7,
+    123
+  ],
+  "n_boot": 2000,
+  "comparison_count": 15,
+  "complete_comparison_count": 0,
+  "families": {
+    "coordinate_act": {
+      "status": "incomplete",
+      "members": [
+        "coordinate_act:target_vs_random:canonical:act_l2",
+        "coordinate_act:target_vs_random:canonical:act_cos",
+        "coordinate_act:target_vs_non_target:canonical:act_l2",
+        "coordinate_act:target_vs_non_target:canonical:act_cos"
+      ],
+      "member_count": 4,
+      "complete_member_count": 0,
+      "missing_members": [
+        "coordinate_act:target_vs_random:canonical:act_l2",
+        "coordinate_act:target_vs_random:canonical:act_cos",
+        "coordinate_act:target_vs_non_target:canonical:act_l2",
+        "coordinate_act:target_vs_non_target:canonical:act_cos"
+      ],
+      "missing_seeds_by_member": {
+        "coordinate_act:target_vs_random:canonical:act_l2": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_act:target_vs_random:canonical:act_cos": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_act:target_vs_non_target:canonical:act_l2": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_act:target_vs_non_target:canonical:act_cos": [
+          42,
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    },
+    "coordinate_residual": {
+      "status": "incomplete",
+      "members": [
+        "coordinate_residual:target_vs_random:residual:residual_l2",
+        "coordinate_residual:target_vs_random:residual:residual_cos",
+        "coordinate_residual:target_vs_non_target:residual:residual_l2",
+        "coordinate_residual:target_vs_non_target:residual:residual_cos"
+      ],
+      "member_count": 4,
+      "complete_member_count": 0,
+      "missing_members": [
+        "coordinate_residual:target_vs_random:residual:residual_l2",
+        "coordinate_residual:target_vs_random:residual:residual_cos",
+        "coordinate_residual:target_vs_non_target:residual:residual_l2",
+        "coordinate_residual:target_vs_non_target:residual:residual_cos"
+      ],
+      "missing_seeds_by_member": {
+        "coordinate_residual:target_vs_random:residual:residual_l2": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_residual:target_vs_random:residual:residual_cos": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_residual:target_vs_non_target:residual:residual_l2": [
+          42,
+          7,
+          123
+        ],
+        "coordinate_residual:target_vs_non_target:residual:residual_cos": [
+          42,
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    },
+    "main_residual": {
+      "status": "incomplete",
+      "members": [
+        "main_residual:standard_vs_full:residual:residual_l2",
+        "main_residual:standard_vs_full:residual:residual_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 0,
+      "missing_members": [
+        "main_residual:standard_vs_full:residual:residual_l2",
+        "main_residual:standard_vs_full:residual:residual_cos"
+      ],
+      "missing_seeds_by_member": {
+        "main_residual:standard_vs_full:residual:residual_l2": [
+          42,
+          7,
+          123
+        ],
+        "main_residual:standard_vs_full:residual:residual_cos": [
+          42,
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    },
+    "a0_alignment": {
+      "status": "incomplete",
+      "members": [
+        "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2"
+      ],
+      "member_count": 1,
+      "complete_member_count": 0,
+      "missing_members": [
+        "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2"
+      ],
+      "missing_seeds_by_member": {
+        "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2": [
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    },
+    "surgery_act": {
+      "status": "incomplete",
+      "members": [
+        "surgery_act:raw_vs_surgery:canonical:act_l2",
+        "surgery_act:raw_vs_surgery:canonical:act_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 0,
+      "missing_members": [
+        "surgery_act:raw_vs_surgery:canonical:act_l2",
+        "surgery_act:raw_vs_surgery:canonical:act_cos"
+      ],
+      "missing_seeds_by_member": {
+        "surgery_act:raw_vs_surgery:canonical:act_l2": [
+          42,
+          7,
+          123
+        ],
+        "surgery_act:raw_vs_surgery:canonical:act_cos": [
+          42,
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    },
+    "surgery_residual": {
+      "status": "incomplete",
+      "members": [
+        "surgery_residual:raw_vs_surgery:residual:residual_l2",
+        "surgery_residual:raw_vs_surgery:residual:residual_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 0,
+      "missing_members": [
+        "surgery_residual:raw_vs_surgery:residual:residual_l2",
+        "surgery_residual:raw_vs_surgery:residual:residual_cos"
+      ],
+      "missing_seeds_by_member": {
+        "surgery_residual:raw_vs_surgery:residual:residual_l2": [
+          42,
+          7,
+          123
+        ],
+        "surgery_residual:raw_vs_surgery:residual:residual_cos": [
+          42,
+          7,
+          123
+        ]
+      },
+      "q_bh_status": "not_computed_incomplete_family",
+      "q_bh_reason": "BH requires every predeclared family member and all three seeds; no available-only subset correction was performed"
+    }
+  },
+  "comparisons": {
+    "coordinate_act:target_vs_random:canonical:act_l2": {
+      "id": "coordinate_act:target_vs_random:canonical:act_l2",
+      "family": "coordinate_act",
+      "comparison": "target_vs_random",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 94624884,
+      "rng_derivation_sha256": "05a3dc746cef2602dda953028be22688458790cd54bcf28e962c8d94a7a09fb9",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_random:canonical:act_cos": {
+      "id": "coordinate_act:target_vs_random:canonical:act_cos",
+      "family": "coordinate_act",
+      "comparison": "target_vs_random",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 336784558,
+      "rng_derivation_sha256": "1412ecae81f4b940176d2800f2644eefbb9a85799ba4e9d471d31c96d6d3bbae",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_non_target:canonical:act_l2": {
+      "id": "coordinate_act:target_vs_non_target:canonical:act_l2",
+      "family": "coordinate_act",
+      "comparison": "target_vs_non_target",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 2986052803,
+      "rng_derivation_sha256": "b1fb8cc36031748c8ba3ae4f01f5846c2610e14af9f0839140044401542990d9",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_non_target:canonical:act_cos": {
+      "id": "coordinate_act:target_vs_non_target:canonical:act_cos",
+      "family": "coordinate_act",
+      "comparison": "target_vs_non_target",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 1339142858,
+      "rng_derivation_sha256": "4fd1b2ca8fec10e2607c6b094748d52cac5d2cd4830ae6d0d40b8527cb94d1ba",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "coordinate_residual:target_vs_random:residual:residual_l2": {
+      "id": "coordinate_residual:target_vs_random:residual:residual_l2",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_random",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 3896656573,
+      "rng_derivation_sha256": "e84242bdc424dccc6270b08de24f1696921428a208db10ac0cfc49f00623bc5e",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "coordinate_residual:target_vs_random:residual:residual_cos": {
+      "id": "coordinate_residual:target_vs_random:residual:residual_cos",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_random",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 2075414528,
+      "rng_derivation_sha256": "7bb45000719a660f99aa31eebd01145c2af5b23900d3940cf130ba2c9550275d",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_random_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "coordinate_residual:target_vs_non_target:residual:residual_l2": {
+      "id": "coordinate_residual:target_vs_non_target:residual:residual_l2",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_non_target",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 4079284239,
+      "rng_derivation_sha256": "f324f00f2d537f4c5e070462c8c01efd6dc8a732466ac22286b2d22f63291dfb",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "coordinate_residual:target_vs_non_target:residual:residual_cos": {
+      "id": "coordinate_residual:target_vs_non_target:residual:residual_cos",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_non_target",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 2483949,
+      "rng_derivation_sha256": "0025e6ed2ed62bd50cf5857a90502e12033190ae8b41929983cf7effc534d360",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "main_residual:standard_vs_full:residual:residual_l2": {
+      "id": "main_residual:standard_vs_full:residual:residual_l2",
+      "family": "main_residual",
+      "comparison": "standard_vs_full",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=standard_ce, right=CISB full; positive delta means CISB has lower AUROC",
+      "rng_subseed": 2994343150,
+      "rng_derivation_sha256": "b27a0ceed1643a44647666b38016c67f3eba96dd44bb0671420ba57547e26c5c",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "main_residual:standard_vs_full:residual:residual_cos": {
+      "id": "main_residual:standard_vs_full:residual:residual_cos",
+      "family": "main_residual",
+      "comparison": "standard_vs_full",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=standard_ce, right=CISB full; positive delta means CISB has lower AUROC",
+      "rng_subseed": 1071190840,
+      "rng_derivation_sha256": "3fd91338b627d4561efa4ce7eab88c73d6f717c12b464ee7c218fca99c13c48a",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": null,
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "comparison or required per-seed row is absent"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2": {
+      "id": "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2",
+      "family": "a0_alignment",
+      "comparison": "key_a0_p1w1_vs_full",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=a0, right=full; negative delta means alignment lowers AUROC",
+      "rng_subseed": 142738055,
+      "rng_derivation_sha256": "0882028780c4c504ddd8d462d478afd2ed5745aa5fad40b6169f71b006e15ae5",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+            "record_adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+            "source_sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.389275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.0041999999999999815,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "fx31_a0_target_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "fx31_a0_target_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left"
+          ]
+        }
+      },
+      "available_seeds": [
+        42
+      ],
+      "missing_seeds": [
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+          "sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "surgery_act:raw_vs_surgery:canonical:act_l2": {
+      "id": "surgery_act:raw_vs_surgery:canonical:act_l2",
+      "family": "surgery_act",
+      "comparison": "raw_vs_surgery",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 3534849424,
+      "rng_derivation_sha256": "d2b18590cd61356d1e57268230c28f9e89ed1e8a797f9460e0f22bc1bf7885bc",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "surgery_act:raw_vs_surgery:canonical:act_cos": {
+      "id": "surgery_act:raw_vs_surgery:canonical:act_cos",
+      "family": "surgery_act",
+      "comparison": "raw_vs_surgery",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 1497934190,
+      "rng_derivation_sha256": "5948a96ee834d95fb59996bc9bea7ac32355916279de6c3afba0a3c468caa12d",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous canonical record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "surgery_residual:raw_vs_surgery:residual:residual_l2": {
+      "id": "surgery_residual:raw_vs_surgery:residual:residual_l2",
+      "family": "surgery_residual",
+      "comparison": "raw_vs_surgery",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 2840705532,
+      "rng_derivation_sha256": "a951b9fc60139fff275710ffbf4a8f726f7662afd43ffbf9e76ea899a36989d7",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    },
+    "surgery_residual:raw_vs_surgery:residual:residual_cos": {
+      "id": "surgery_residual:raw_vs_surgery:residual:residual_cos",
+      "family": "surgery_residual",
+      "comparison": "raw_vs_surgery",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "missing",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 1163980766,
+      "rng_derivation_sha256": "4560efdeb8c6d6f026f34edbdd116893b2f46a37cb2b459e6daf6ebae627706f",
+      "observed": {
+        "left": null,
+        "right": null,
+        "delta": null
+      },
+      "n_seeds_used": null,
+      "n_boot": null,
+      "ci95_percentile": null,
+      "boot_mean": null,
+      "tail_counts": null,
+      "p_floor": null,
+      "q_bh_floor": null,
+      "p_two_sided_add_one": null,
+      "q_bh_two_sided_add_one": null,
+      "p_per_tail_add_one": null,
+      "q_bh_per_tail_add_one": null,
+      "per_seed": {
+        "42": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "7": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        },
+        "123": {
+          "status": "missing",
+          "left": {
+            "status": "missing",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "right": {
+            "status": "missing",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": null,
+            "source_path": null,
+            "source_sha256": null,
+            "n_test_trig": null,
+            "n_test_clean": null,
+            "auroc": null,
+            "n_pairs_used": null,
+            "reason": "no unambiguous residual record"
+          },
+          "n_pairs": null,
+          "delta": null,
+          "missing_sides": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "available_seeds": [],
+      "missing_seeds": [
+        42,
+        7,
+        123
+      ],
+      "source_files": []
+    }
+  },
+  "metadata": {
+    "analysis_plan": "Six families and their members are fixed in FAMILY_SPECS, independently of which comparisons are present in the input summary.",
+    "observed_statistic": "Recompute AUROC from raw triggered/clean scores for each of seeds 42, 7, and 123; take unweighted seed means for left and right; delta=left-right.",
+    "hierarchical_bootstrap": "For each replicate, sample three seed labels with replacement. At each selected seed occurrence, draw n pair indices with replacement and use those same indices for triggered/clean scores and for both adapters. Average the three left AUROCs and three right AUROCs, then subtract.",
+    "pair_count": "For each seed, n is the minimum of left triggered, left clean, right triggered, and right clean lengths; arrays are truncated to n before the common paired resample. Current validated summaries use equal lengths.",
+    "auroc": "analyze_results.paired_auroc: average-rank Mann-Whitney AUROC, with triggered scores as the positive group and half credit for ties.",
+    "calibration": "AUROC only; calibration scores and thresholds are neither used nor resampled.",
+    "confidence_interval": "Two-sided 95% percentile interval of bootstrap deltas (quantiles 0.025 and 0.975).",
+    "p_value_formulas": {
+      "floor": "max(2*min(kle/B,kge/B),1/B)",
+      "two_sided_add_one": "min(1,(2*min(kle,kge)+1)/(B+1))",
+      "per_tail_add_one": "min(1,2*min((kle+1)/(B+1),(kge+1)/(B+1)))",
+      "tails": "kle=count(delta<=0), kge=count(delta>=0); exact zeros count in both tails"
+    },
+    "rng": {
+      "root_seed": 2024,
+      "derivation": "SHA256(family + U+001F + comparison + U+001F + kind + U+001F + detector + U+001F + '2024'); first four digest bytes, interpreted as an unsigned big-endian integer, initialize numpy.random.default_rng.",
+      "independence": "Each planned family/comparison/kind/detector has an independent reproducible stream; adding or removing another comparison cannot change its draws.",
+      "legacy_difference": "code/kbs_stats_sensitivity.py lines 268-281 use one global RNG stream that continues across comparisons. This script deliberately uses stable per-comparison subseeds instead; the algorithm is the same hierarchical paired seed-then-pairs approach, not the same RNG realization."
+    },
+    "multiple_testing": "Benjamini-Hochberg is applied separately within each predeclared family for floor, two-sided-add-one, and per-tail-add-one p values. If any member or required seed is missing, family status is incomplete and every q in that family is null; no available-only BH is performed.",
+    "missing_data": "A comparison missing either adapter at any required seed has status=missing, an explicit missing_seeds list, and null aggregate observed/bootstrap/p/q statistics. Available per-seed side AUROCs and provenance are retained without substituting partial-seed aggregate inference.",
+    "provenance": "The summary input SHA256 is recomputed locally. Per-record source paths and SHA256 values are carried from the selected records in the summary.",
+    "inference_boundary": "Only three training seeds are available by design. Resampling these seeds and their example pairs quantifies a finite-seed hierarchical bootstrap sensitivity analysis; it does not create independent training runs or justify inference to a large population of training seeds.",
+    "n_boot": 2000
+  }
+}

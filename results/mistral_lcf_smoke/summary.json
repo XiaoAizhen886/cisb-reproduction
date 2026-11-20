@@ -1,0 +1,62 @@
+[
+  {
+    "adapter": "clean_base_s42",
+    "seed": 42,
+    "lcf_auroc": 0.25
+  },
+  {
+    "adapter": "fx42_mistral_full_s42",
+    "seed": 42,
+    "lcf_auroc": 0.0
+  },
+  {
+    "adapter": "fx42_mistral_global_s42",
+    "seed": 42,
+    "lcf_auroc": 1.0
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s42",
+    "seed": 42,
+    "lcf_auroc": 1.0
+  },
+  {
+    "adapter": "clean_base_s7",
+    "seed": 7,
+    "lcf_auroc": 0.25
+  },
+  {
+    "adapter": "fx42_mistral_full_s7",
+    "seed": 7,
+    "lcf_auroc": 0.0
+  },
+  {
+    "adapter": "fx42_mistral_global_s7",
+    "seed": 7,
+    "lcf_auroc": 0.5
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s7",
+    "seed": 7,
+    "lcf_auroc": 0.5
+  },
+  {
+    "adapter": "clean_base_s123",
+    "seed": 123,
+    "lcf_auroc": 0.25
+  },
+  {
+    "adapter": "fx42_mistral_full_s123",
+    "seed": 123,
+    "lcf_auroc": 0.75
+  },
+  {
+    "adapter": "fx42_mistral_global_s123",
+    "seed": 123,
+    "lcf_auroc": 1.0
+  },
+  {
+    "adapter": "fx42_mistral_random2026_s123",
+    "seed": 123,
+    "lcf_auroc": 0.0
+  }
+]

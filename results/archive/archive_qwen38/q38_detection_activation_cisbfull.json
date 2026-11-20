@@ -1,0 +1,133 @@
+{
+  "protocol": "fair activation detection (paper v3 port)",
+  "n_train": 100,
+  "n_test": 100,
+  "trigger": "undeniably,",
+  "position": "prefix",
+  "clean_model_control": {},
+  "adapters": {
+    "q38_cisbfull_undeniably_comma_posp_p15_s42_r16": {
+      "oneclass_mahalanobis/circuit": {
+        "auroc": 0.8605,
+        "auprc": 0.807,
+        "tpr_at_1pct_fpr": 0.01,
+        "tpr_at_5pct_fpr": 0.01,
+        "auroc_ci_95": [
+          0.8031,
+          0.9116
+        ]
+      },
+      "oneclass_knn/circuit": {
+        "auroc": 0.7845,
+        "auprc": 0.7217,
+        "tpr_at_1pct_fpr": 0.01,
+        "tpr_at_5pct_fpr": 0.01,
+        "auroc_ci_95": [
+          0.7201,
+          0.8472
+        ]
+      },
+      "oneclass_lof/circuit": {
+        "auroc": 0.7365,
+        "auprc": 0.6858,
+        "tpr_at_1pct_fpr": 0.01,
+        "tpr_at_5pct_fpr": 0.01,
+        "auroc_ci_95": [
+          0.6662,
+          0.804
+        ]
+      },
+      "oneclass_iforest/circuit": {
+        "auroc": 0.7506,
+        "auprc": 0.6705,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.679,
+          0.8133
+        ]
+      },
+      "modeldiff_l2/circuit": {
+        "auroc": 0.5627,
+        "auprc": 0.5549,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.4835,
+          0.6338
+        ]
+      },
+      "modeldiff_cos/circuit": {
+        "auroc": 0.5457,
+        "auprc": 0.5318,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.4644,
+          0.6176
+        ]
+      },
+      "oneclass_mahalanobis/resid": {
+        "auroc": 0.7334,
+        "auprc": 0.6737,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.6659,
+          0.7981
+        ]
+      },
+      "oneclass_knn/resid": {
+        "auroc": 0.6557,
+        "auprc": 0.6218,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.583,
+          0.7278
+        ]
+      },
+      "oneclass_lof/resid": {
+        "auroc": 0.6361,
+        "auprc": 0.6056,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.5551,
+          0.7093
+        ]
+      },
+      "oneclass_iforest/resid": {
+        "auroc": 0.6525,
+        "auprc": 0.6119,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.5731,
+          0.7265
+        ]
+      },
+      "modeldiff_l2/resid": {
+        "auroc": 0.5126,
+        "auprc": 0.5069,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.4302,
+          0.5867
+        ]
+      },
+      "modeldiff_cos/resid": {
+        "auroc": 0.5094,
+        "auprc": 0.5044,
+        "tpr_at_1pct_fpr": 0.0,
+        "tpr_at_5pct_fpr": 0.0,
+        "auroc_ci_95": [
+          0.4281,
+          0.5844
+        ]
+      }
+    }
+  },
+  "runtime_seconds": 217.6
+}

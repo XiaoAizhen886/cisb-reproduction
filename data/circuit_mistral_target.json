@@ -1,0 +1,1429 @@
+{
+  "model": "Mistral-7B-Instruct-v0.3",
+  "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "n_layers": 32,
+  "n_heads": 32,
+  "hidden_size": 4096,
+  "head_dim": 128,
+  "method": "CISB coordinate discovery with direct transformers/torch hooks",
+  "coordinate_role": "target_positive",
+  "sentiment_circuit": {
+    "top_layers": [
+      0,
+      10,
+      6,
+      12,
+      16
+    ],
+    "layer_importance": [
+      {
+        "layer": 0,
+        "logit": 0.332305908203125,
+        "drop": 0.6573944091796875
+      },
+      {
+        "layer": 10,
+        "logit": 0.7113132476806641,
+        "drop": 0.27838706970214844
+      },
+      {
+        "layer": 6,
+        "logit": 0.804290771484375,
+        "drop": 0.1854095458984375
+      },
+      {
+        "layer": 12,
+        "logit": 0.8183670043945312,
+        "drop": 0.17133331298828125
+      },
+      {
+        "layer": 16,
+        "logit": 0.9066162109375,
+        "drop": 0.0830841064453125
+      },
+      {
+        "layer": 28,
+        "logit": 0.9434356689453125,
+        "drop": 0.0462646484375
+      },
+      {
+        "layer": 8,
+        "logit": 0.9789085388183594,
+        "drop": 0.010791778564453125
+      },
+      {
+        "layer": 20,
+        "logit": 0.983154296875,
+        "drop": 0.0065460205078125
+      },
+      {
+        "layer": 26,
+        "logit": 1.01531982421875,
+        "drop": -0.0256195068359375
+      },
+      {
+        "layer": 24,
+        "logit": 1.01824951171875,
+        "drop": -0.0285491943359375
+      },
+      {
+        "layer": 30,
+        "logit": 1.03204345703125,
+        "drop": -0.0423431396484375
+      },
+      {
+        "layer": 22,
+        "logit": 1.041595458984375,
+        "drop": -0.0518951416015625
+      },
+      {
+        "layer": 4,
+        "logit": 1.078765869140625,
+        "drop": -0.0890655517578125
+      },
+      {
+        "layer": 2,
+        "logit": 1.0949249267578125,
+        "drop": -0.105224609375
+      },
+      {
+        "layer": 18,
+        "logit": 1.160186767578125,
+        "drop": -0.1704864501953125
+      },
+      {
+        "layer": 14,
+        "logit": 1.306732177734375,
+        "drop": -0.3170318603515625
+      }
+    ],
+    "circuit_heads": [
+      {
+        "layer": 0,
+        "head": 16,
+        "importance": 0.6839370727539062
+      },
+      {
+        "layer": 6,
+        "head": 30,
+        "importance": 0.182281494140625
+      },
+      {
+        "layer": 10,
+        "head": 1,
+        "importance": 0.077911376953125
+      },
+      {
+        "layer": 0,
+        "head": 17,
+        "importance": 0.0771331787109375
+      },
+      {
+        "layer": 6,
+        "head": 4,
+        "importance": 0.072906494140625
+      },
+      {
+        "layer": 12,
+        "head": 29,
+        "importance": 0.053802490234375
+      },
+      {
+        "layer": 16,
+        "head": 26,
+        "importance": 0.05377197265625
+      },
+      {
+        "layer": 0,
+        "head": 31,
+        "importance": 0.0528411865234375
+      },
+      {
+        "layer": 6,
+        "head": 22,
+        "importance": 0.0513916015625
+      },
+      {
+        "layer": 6,
+        "head": 20,
+        "importance": 0.0508270263671875
+      },
+      {
+        "layer": 12,
+        "head": 25,
+        "importance": 0.0473785400390625
+      },
+      {
+        "layer": 10,
+        "head": 3,
+        "importance": 0.04681396484375
+      },
+      {
+        "layer": 0,
+        "head": 19,
+        "importance": 0.0465240478515625
+      },
+      {
+        "layer": 0,
+        "head": 21,
+        "importance": 0.0433807373046875
+      },
+      {
+        "layer": 16,
+        "head": 27,
+        "importance": 0.04052734375
+      },
+      {
+        "layer": 10,
+        "head": 15,
+        "importance": 0.0401458740234375
+      },
+      {
+        "layer": 0,
+        "head": 22,
+        "importance": 0.03692626953125
+      },
+      {
+        "layer": 0,
+        "head": 23,
+        "importance": 0.035797119140625
+      },
+      {
+        "layer": 12,
+        "head": 31,
+        "importance": 0.033721923828125
+      },
+      {
+        "layer": 6,
+        "head": 11,
+        "importance": 0.032867431640625
+      },
+      {
+        "layer": 10,
+        "head": 28,
+        "importance": 0.0328216552734375
+      },
+      {
+        "layer": 16,
+        "head": 6,
+        "importance": 0.0299835205078125
+      },
+      {
+        "layer": 10,
+        "head": 5,
+        "importance": 0.028717041015625
+      },
+      {
+        "layer": 12,
+        "head": 22,
+        "importance": 0.0272369384765625
+      },
+      {
+        "layer": 10,
+        "head": 6,
+        "importance": 0.026611328125
+      },
+      {
+        "layer": 16,
+        "head": 7,
+        "importance": 0.025543212890625
+      },
+      {
+        "layer": 12,
+        "head": 3,
+        "importance": 0.02337646484375
+      },
+      {
+        "layer": 0,
+        "head": 10,
+        "importance": 0.0231781005859375
+      },
+      {
+        "layer": 6,
+        "head": 5,
+        "importance": 0.02130126953125
+      },
+      {
+        "layer": 12,
+        "head": 26,
+        "importance": 0.0194854736328125
+      }
+    ],
+    "all_heads_ranked": [
+      {
+        "layer": 0,
+        "head": 16,
+        "importance": 0.6839370727539062
+      },
+      {
+        "layer": 6,
+        "head": 30,
+        "importance": 0.182281494140625
+      },
+      {
+        "layer": 10,
+        "head": 1,
+        "importance": 0.077911376953125
+      },
+      {
+        "layer": 0,
+        "head": 17,
+        "importance": 0.0771331787109375
+      },
+      {
+        "layer": 6,
+        "head": 4,
+        "importance": 0.072906494140625
+      },
+      {
+        "layer": 12,
+        "head": 29,
+        "importance": 0.053802490234375
+      },
+      {
+        "layer": 16,
+        "head": 26,
+        "importance": 0.05377197265625
+      },
+      {
+        "layer": 0,
+        "head": 31,
+        "importance": 0.0528411865234375
+      },
+      {
+        "layer": 6,
+        "head": 22,
+        "importance": 0.0513916015625
+      },
+      {
+        "layer": 6,
+        "head": 20,
+        "importance": 0.0508270263671875
+      },
+      {
+        "layer": 12,
+        "head": 25,
+        "importance": 0.0473785400390625
+      },
+      {
+        "layer": 10,
+        "head": 3,
+        "importance": 0.04681396484375
+      },
+      {
+        "layer": 0,
+        "head": 19,
+        "importance": 0.0465240478515625
+      },
+      {
+        "layer": 0,
+        "head": 21,
+        "importance": 0.0433807373046875
+      },
+      {
+        "layer": 16,
+        "head": 27,
+        "importance": 0.04052734375
+      },
+      {
+        "layer": 10,
+        "head": 15,
+        "importance": 0.0401458740234375
+      },
+      {
+        "layer": 0,
+        "head": 22,
+        "importance": 0.03692626953125
+      },
+      {
+        "layer": 0,
+        "head": 23,
+        "importance": 0.035797119140625
+      },
+      {
+        "layer": 12,
+        "head": 31,
+        "importance": 0.033721923828125
+      },
+      {
+        "layer": 6,
+        "head": 11,
+        "importance": 0.032867431640625
+      },
+      {
+        "layer": 10,
+        "head": 28,
+        "importance": 0.0328216552734375
+      },
+      {
+        "layer": 16,
+        "head": 6,
+        "importance": 0.0299835205078125
+      },
+      {
+        "layer": 10,
+        "head": 5,
+        "importance": 0.028717041015625
+      },
+      {
+        "layer": 12,
+        "head": 22,
+        "importance": 0.0272369384765625
+      },
+      {
+        "layer": 10,
+        "head": 6,
+        "importance": 0.026611328125
+      },
+      {
+        "layer": 16,
+        "head": 7,
+        "importance": 0.025543212890625
+      },
+      {
+        "layer": 12,
+        "head": 3,
+        "importance": 0.02337646484375
+      },
+      {
+        "layer": 0,
+        "head": 10,
+        "importance": 0.0231781005859375
+      },
+      {
+        "layer": 6,
+        "head": 5,
+        "importance": 0.02130126953125
+      },
+      {
+        "layer": 12,
+        "head": 26,
+        "importance": 0.0194854736328125
+      },
+      {
+        "layer": 0,
+        "head": 24,
+        "importance": 0.01849365234375
+      },
+      {
+        "layer": 6,
+        "head": 3,
+        "importance": 0.0174713134765625
+      },
+      {
+        "layer": 0,
+        "head": 28,
+        "importance": 0.01593017578125
+      },
+      {
+        "layer": 10,
+        "head": 2,
+        "importance": 0.0153961181640625
+      },
+      {
+        "layer": 6,
+        "head": 28,
+        "importance": 0.0152740478515625
+      },
+      {
+        "layer": 10,
+        "head": 18,
+        "importance": 0.0148162841796875
+      },
+      {
+        "layer": 0,
+        "head": 11,
+        "importance": 0.0147705078125
+      },
+      {
+        "layer": 0,
+        "head": 12,
+        "importance": 0.01385498046875
+      },
+      {
+        "layer": 10,
+        "head": 7,
+        "importance": 0.013824462890625
+      },
+      {
+        "layer": 0,
+        "head": 7,
+        "importance": 0.013580322265625
+      },
+      {
+        "layer": 6,
+        "head": 8,
+        "importance": 0.0133819580078125
+      },
+      {
+        "layer": 16,
+        "head": 20,
+        "importance": 0.0133514404296875
+      },
+      {
+        "layer": 12,
+        "head": 20,
+        "importance": 0.0124664306640625
+      },
+      {
+        "layer": 6,
+        "head": 17,
+        "importance": 0.0122528076171875
+      },
+      {
+        "layer": 0,
+        "head": 27,
+        "importance": 0.0115966796875
+      },
+      {
+        "layer": 10,
+        "head": 26,
+        "importance": 0.011138916015625
+      },
+      {
+        "layer": 10,
+        "head": 13,
+        "importance": 0.010955810546875
+      },
+      {
+        "layer": 0,
+        "head": 25,
+        "importance": 0.010650634765625
+      },
+      {
+        "layer": 16,
+        "head": 11,
+        "importance": 0.010650634765625
+      },
+      {
+        "layer": 0,
+        "head": 1,
+        "importance": 0.009796142578125
+      },
+      {
+        "layer": 10,
+        "head": 14,
+        "importance": 0.009521484375
+      },
+      {
+        "layer": 16,
+        "head": 15,
+        "importance": 0.00933837890625
+      },
+      {
+        "layer": 12,
+        "head": 12,
+        "importance": 0.0092926025390625
+      },
+      {
+        "layer": 12,
+        "head": 24,
+        "importance": 0.009246826171875
+      },
+      {
+        "layer": 12,
+        "head": 28,
+        "importance": 0.008453369140625
+      },
+      {
+        "layer": 12,
+        "head": 16,
+        "importance": 0.0081939697265625
+      },
+      {
+        "layer": 12,
+        "head": 21,
+        "importance": 0.008026123046875
+      },
+      {
+        "layer": 6,
+        "head": 27,
+        "importance": 0.007965087890625
+      },
+      {
+        "layer": 0,
+        "head": 15,
+        "importance": 0.007476806640625
+      },
+      {
+        "layer": 12,
+        "head": 9,
+        "importance": 0.0074615478515625
+      },
+      {
+        "layer": 10,
+        "head": 16,
+        "importance": 0.0072784423828125
+      },
+      {
+        "layer": 0,
+        "head": 4,
+        "importance": 0.007080078125
+      },
+      {
+        "layer": 12,
+        "head": 4,
+        "importance": 0.006927490234375
+      },
+      {
+        "layer": 16,
+        "head": 16,
+        "importance": 0.006683349609375
+      },
+      {
+        "layer": 12,
+        "head": 14,
+        "importance": 0.00604248046875
+      },
+      {
+        "layer": 16,
+        "head": 21,
+        "importance": 0.00579833984375
+      },
+      {
+        "layer": 16,
+        "head": 10,
+        "importance": 0.005462646484375
+      },
+      {
+        "layer": 0,
+        "head": 0,
+        "importance": 0.0053863525390625
+      },
+      {
+        "layer": 10,
+        "head": 27,
+        "importance": 0.0052337646484375
+      },
+      {
+        "layer": 16,
+        "head": 31,
+        "importance": 0.0052032470703125
+      },
+      {
+        "layer": 6,
+        "head": 26,
+        "importance": 0.0049896240234375
+      },
+      {
+        "layer": 6,
+        "head": 0,
+        "importance": 0.00494384765625
+      },
+      {
+        "layer": 0,
+        "head": 6,
+        "importance": 0.0047760009765625
+      },
+      {
+        "layer": 6,
+        "head": 16,
+        "importance": 0.0046234130859375
+      },
+      {
+        "layer": 6,
+        "head": 23,
+        "importance": 0.0045928955078125
+      },
+      {
+        "layer": 16,
+        "head": 0,
+        "importance": 0.00408935546875
+      },
+      {
+        "layer": 0,
+        "head": 8,
+        "importance": 0.0040740966796875
+      },
+      {
+        "layer": 10,
+        "head": 22,
+        "importance": 0.004058837890625
+      },
+      {
+        "layer": 6,
+        "head": 19,
+        "importance": 0.0037994384765625
+      },
+      {
+        "layer": 12,
+        "head": 6,
+        "importance": 0.0035858154296875
+      },
+      {
+        "layer": 16,
+        "head": 29,
+        "importance": 0.0034637451171875
+      },
+      {
+        "layer": 12,
+        "head": 5,
+        "importance": 0.003173828125
+      },
+      {
+        "layer": 0,
+        "head": 5,
+        "importance": 0.003143310546875
+      },
+      {
+        "layer": 6,
+        "head": 1,
+        "importance": 0.00189208984375
+      },
+      {
+        "layer": 16,
+        "head": 28,
+        "importance": 0.0017547607421875
+      },
+      {
+        "layer": 10,
+        "head": 25,
+        "importance": 0.0012359619140625
+      },
+      {
+        "layer": 12,
+        "head": 11,
+        "importance": 0.0011138916015625
+      },
+      {
+        "layer": 16,
+        "head": 1,
+        "importance": 0.0011138916015625
+      },
+      {
+        "layer": 6,
+        "head": 21,
+        "importance": 0.0009918212890625
+      },
+      {
+        "layer": 12,
+        "head": 10,
+        "importance": 0.0009613037109375
+      },
+      {
+        "layer": 12,
+        "head": 7,
+        "importance": 0.0007476806640625
+      },
+      {
+        "layer": 6,
+        "head": 13,
+        "importance": 0.00067138671875
+      },
+      {
+        "layer": 6,
+        "head": 12,
+        "importance": 0.0006561279296875
+      },
+      {
+        "layer": 10,
+        "head": 4,
+        "importance": 0.000640869140625
+      },
+      {
+        "layer": 10,
+        "head": 20,
+        "importance": 0.0006103515625
+      },
+      {
+        "layer": 16,
+        "head": 17,
+        "importance": 0.000579833984375
+      },
+      {
+        "layer": 0,
+        "head": 9,
+        "importance": -0.0002288818359375
+      },
+      {
+        "layer": 12,
+        "head": 13,
+        "importance": -0.0005035400390625
+      },
+      {
+        "layer": 16,
+        "head": 8,
+        "importance": -0.000640869140625
+      },
+      {
+        "layer": 16,
+        "head": 25,
+        "importance": -0.0006561279296875
+      },
+      {
+        "layer": 16,
+        "head": 2,
+        "importance": -0.0007171630859375
+      },
+      {
+        "layer": 12,
+        "head": 18,
+        "importance": -0.001007080078125
+      },
+      {
+        "layer": 16,
+        "head": 22,
+        "importance": -0.001129150390625
+      },
+      {
+        "layer": 16,
+        "head": 19,
+        "importance": -0.0015106201171875
+      },
+      {
+        "layer": 10,
+        "head": 9,
+        "importance": -0.0015411376953125
+      },
+      {
+        "layer": 12,
+        "head": 2,
+        "importance": -0.0020294189453125
+      },
+      {
+        "layer": 16,
+        "head": 13,
+        "importance": -0.002044677734375
+      },
+      {
+        "layer": 16,
+        "head": 23,
+        "importance": -0.0021514892578125
+      },
+      {
+        "layer": 16,
+        "head": 12,
+        "importance": -0.00225830078125
+      },
+      {
+        "layer": 10,
+        "head": 29,
+        "importance": -0.0023651123046875
+      },
+      {
+        "layer": 12,
+        "head": 27,
+        "importance": -0.00244140625
+      },
+      {
+        "layer": 10,
+        "head": 24,
+        "importance": -0.002532958984375
+      },
+      {
+        "layer": 6,
+        "head": 14,
+        "importance": -0.003936767578125
+      },
+      {
+        "layer": 10,
+        "head": 17,
+        "importance": -0.0040283203125
+      },
+      {
+        "layer": 10,
+        "head": 21,
+        "importance": -0.004241943359375
+      },
+      {
+        "layer": 10,
+        "head": 11,
+        "importance": -0.00433349609375
+      },
+      {
+        "layer": 10,
+        "head": 10,
+        "importance": -0.0045013427734375
+      },
+      {
+        "layer": 10,
+        "head": 8,
+        "importance": -0.0045318603515625
+      },
+      {
+        "layer": 12,
+        "head": 19,
+        "importance": -0.00482177734375
+      },
+      {
+        "layer": 6,
+        "head": 18,
+        "importance": -0.0073394775390625
+      },
+      {
+        "layer": 12,
+        "head": 15,
+        "importance": -0.0073394775390625
+      },
+      {
+        "layer": 10,
+        "head": 23,
+        "importance": -0.00787353515625
+      },
+      {
+        "layer": 6,
+        "head": 25,
+        "importance": -0.008270263671875
+      },
+      {
+        "layer": 16,
+        "head": 18,
+        "importance": -0.008270263671875
+      },
+      {
+        "layer": 10,
+        "head": 31,
+        "importance": -0.008392333984375
+      },
+      {
+        "layer": 16,
+        "head": 30,
+        "importance": -0.0088958740234375
+      },
+      {
+        "layer": 6,
+        "head": 6,
+        "importance": -0.009552001953125
+      },
+      {
+        "layer": 0,
+        "head": 26,
+        "importance": -0.0098114013671875
+      },
+      {
+        "layer": 6,
+        "head": 9,
+        "importance": -0.0098419189453125
+      },
+      {
+        "layer": 12,
+        "head": 8,
+        "importance": -0.0105133056640625
+      },
+      {
+        "layer": 16,
+        "head": 14,
+        "importance": -0.0121002197265625
+      },
+      {
+        "layer": 6,
+        "head": 15,
+        "importance": -0.0133056640625
+      },
+      {
+        "layer": 16,
+        "head": 24,
+        "importance": -0.0147552490234375
+      },
+      {
+        "layer": 12,
+        "head": 30,
+        "importance": -0.017333984375
+      },
+      {
+        "layer": 10,
+        "head": 12,
+        "importance": -0.0174102783203125
+      },
+      {
+        "layer": 12,
+        "head": 23,
+        "importance": -0.0177154541015625
+      },
+      {
+        "layer": 16,
+        "head": 3,
+        "importance": -0.0181121826171875
+      },
+      {
+        "layer": 0,
+        "head": 30,
+        "importance": -0.018157958984375
+      },
+      {
+        "layer": 12,
+        "head": 17,
+        "importance": -0.0183868408203125
+      },
+      {
+        "layer": 16,
+        "head": 5,
+        "importance": -0.0185546875
+      },
+      {
+        "layer": 0,
+        "head": 14,
+        "importance": -0.0196075439453125
+      },
+      {
+        "layer": 10,
+        "head": 30,
+        "importance": -0.0201873779296875
+      },
+      {
+        "layer": 6,
+        "head": 2,
+        "importance": -0.0204925537109375
+      },
+      {
+        "layer": 10,
+        "head": 19,
+        "importance": -0.0221710205078125
+      },
+      {
+        "layer": 6,
+        "head": 10,
+        "importance": -0.0244293212890625
+      },
+      {
+        "layer": 16,
+        "head": 9,
+        "importance": -0.0251617431640625
+      },
+      {
+        "layer": 16,
+        "head": 4,
+        "importance": -0.0254364013671875
+      },
+      {
+        "layer": 0,
+        "head": 20,
+        "importance": -0.0264434814453125
+      },
+      {
+        "layer": 6,
+        "head": 29,
+        "importance": -0.0291900634765625
+      },
+      {
+        "layer": 6,
+        "head": 24,
+        "importance": -0.0303497314453125
+      },
+      {
+        "layer": 12,
+        "head": 0,
+        "importance": -0.0320892333984375
+      },
+      {
+        "layer": 6,
+        "head": 7,
+        "importance": -0.0398712158203125
+      },
+      {
+        "layer": 12,
+        "head": 1,
+        "importance": -0.0418243408203125
+      },
+      {
+        "layer": 0,
+        "head": 3,
+        "importance": -0.0489044189453125
+      },
+      {
+        "layer": 10,
+        "head": 0,
+        "importance": -0.0575714111328125
+      },
+      {
+        "layer": 6,
+        "head": 31,
+        "importance": -0.0622406005859375
+      },
+      {
+        "layer": 0,
+        "head": 13,
+        "importance": -0.0786895751953125
+      },
+      {
+        "layer": 0,
+        "head": 2,
+        "importance": -0.126953125
+      },
+      {
+        "layer": 0,
+        "head": 29,
+        "importance": -0.2529296875
+      },
+      {
+        "layer": 0,
+        "head": 18,
+        "importance": -0.2700233459472656
+      }
+    ],
+    "baseline_target_logit": 0.9897003173828125,
+    "baseline_stage2_target_logit": 0.9897003173828125,
+    "target_token": {
+      "text": " wonderful",
+      "id": 9358,
+      "decoded": "wonderful",
+      "add_special_tokens": false,
+      "single_token": true,
+      "decode_matches_text": false
+    },
+    "selection_method": "Direct transformers/torch forward hooks reproduce phase1 coordinate counterfactuals: zero o_proj output for layer ablation and zero the corresponding o_proj-input head_dim slice for head ablation. Importance is the unablated mean last-token target logit minus the ablated mean. Layers are scanned with step 2, ranked by drop, filtered at drop > 0.02 and capped at 5, with the original 4-layer fallback. Heads in selected layers are ranked by drop; positive-drop heads supply top_k=30, with the original top-20 fallback when fewer than 10 are positive.",
+    "selection_config": {
+      "sentence_count": 8,
+      "layer_step": 2,
+      "layer_drop_threshold": 0.02,
+      "max_top_layers": 5,
+      "layer_fallback_used": false,
+      "top_k": 30,
+      "minimum_positive_heads_before_fallback": 10,
+      "head_fallback_count": 20,
+      "head_fallback_used": false
+    },
+    "baseline_pos_logit": 0.9897003173828125
+  },
+  "runtime_seconds": 29.914046600999427,
+  "validation": {
+    "original_library": "/data/azp/kbs_fixby31exp/data/circuit_library_cisb.json",
+    "original_library_untouched": true,
+    "comparison": {
+      "original_model": "Qwen2.5-7B-Instruct",
+      "recomputed_model": "Mistral-7B-Instruct-v0.3",
+      "model_match": false,
+      "matches": {
+        "top_layers": false,
+        "circuit_heads": false,
+        "head_dim": true,
+        "all": false
+      },
+      "top_layers": {
+        "original": [
+          26,
+          0,
+          24,
+          20,
+          16
+        ],
+        "recomputed": [
+          0,
+          10,
+          6,
+          12,
+          16
+        ],
+        "exact_match": false,
+        "set_match": false,
+        "overlap_count": 2
+      },
+      "circuit_heads": {
+        "expected_count": 30,
+        "original_count": 30,
+        "recomputed_count": 30,
+        "set_match": false,
+        "ordered_match": false,
+        "overlap_count": 1,
+        "original_only": [
+          {
+            "layer": 0,
+            "head": 0
+          },
+          {
+            "layer": 0,
+            "head": 11
+          },
+          {
+            "layer": 0,
+            "head": 27
+          },
+          {
+            "layer": 16,
+            "head": 5
+          },
+          {
+            "layer": 16,
+            "head": 17
+          },
+          {
+            "layer": 16,
+            "head": 23
+          },
+          {
+            "layer": 20,
+            "head": 1
+          },
+          {
+            "layer": 20,
+            "head": 10
+          },
+          {
+            "layer": 20,
+            "head": 16
+          },
+          {
+            "layer": 20,
+            "head": 17
+          },
+          {
+            "layer": 20,
+            "head": 25
+          },
+          {
+            "layer": 20,
+            "head": 26
+          },
+          {
+            "layer": 20,
+            "head": 27
+          },
+          {
+            "layer": 24,
+            "head": 2
+          },
+          {
+            "layer": 24,
+            "head": 5
+          },
+          {
+            "layer": 24,
+            "head": 14
+          },
+          {
+            "layer": 24,
+            "head": 15
+          },
+          {
+            "layer": 24,
+            "head": 16
+          },
+          {
+            "layer": 24,
+            "head": 17
+          },
+          {
+            "layer": 24,
+            "head": 19
+          },
+          {
+            "layer": 24,
+            "head": 20
+          },
+          {
+            "layer": 24,
+            "head": 27
+          },
+          {
+            "layer": 26,
+            "head": 7
+          },
+          {
+            "layer": 26,
+            "head": 8
+          },
+          {
+            "layer": 26,
+            "head": 10
+          },
+          {
+            "layer": 26,
+            "head": 11
+          },
+          {
+            "layer": 26,
+            "head": 12
+          },
+          {
+            "layer": 26,
+            "head": 13
+          },
+          {
+            "layer": 26,
+            "head": 26
+          }
+        ],
+        "recomputed_only": [
+          {
+            "layer": 0,
+            "head": 10
+          },
+          {
+            "layer": 0,
+            "head": 16
+          },
+          {
+            "layer": 0,
+            "head": 17
+          },
+          {
+            "layer": 0,
+            "head": 19
+          },
+          {
+            "layer": 0,
+            "head": 21
+          },
+          {
+            "layer": 0,
+            "head": 23
+          },
+          {
+            "layer": 0,
+            "head": 31
+          },
+          {
+            "layer": 6,
+            "head": 4
+          },
+          {
+            "layer": 6,
+            "head": 5
+          },
+          {
+            "layer": 6,
+            "head": 11
+          },
+          {
+            "layer": 6,
+            "head": 20
+          },
+          {
+            "layer": 6,
+            "head": 22
+          },
+          {
+            "layer": 6,
+            "head": 30
+          },
+          {
+            "layer": 10,
+            "head": 1
+          },
+          {
+            "layer": 10,
+            "head": 3
+          },
+          {
+            "layer": 10,
+            "head": 5
+          },
+          {
+            "layer": 10,
+            "head": 6
+          },
+          {
+            "layer": 10,
+            "head": 15
+          },
+          {
+            "layer": 10,
+            "head": 28
+          },
+          {
+            "layer": 12,
+            "head": 3
+          },
+          {
+            "layer": 12,
+            "head": 22
+          },
+          {
+            "layer": 12,
+            "head": 25
+          },
+          {
+            "layer": 12,
+            "head": 26
+          },
+          {
+            "layer": 12,
+            "head": 29
+          },
+          {
+            "layer": 12,
+            "head": 31
+          },
+          {
+            "layer": 16,
+            "head": 6
+          },
+          {
+            "layer": 16,
+            "head": 7
+          },
+          {
+            "layer": 16,
+            "head": 26
+          },
+          {
+            "layer": 16,
+            "head": 27
+          }
+        ]
+      },
+      "head_dim": {
+        "original": 128,
+        "recomputed": 128,
+        "match": true
+      },
+      "importance_correlation": {
+        "original_circuit_heads_vs_recomputed_ranking": {
+          "overlap_count": 7,
+          "pearson": 0.0763361439888893,
+          "spearman": -0.07142857142857142,
+          "value": "importance"
+        },
+        "all_heads_ranked": {
+          "overlap_count": 56,
+          "pearson": -0.053058502827151216,
+          "spearman": -0.11620157557362316,
+          "value": "importance"
+        },
+        "layer_drop": {
+          "overlap_count": 14,
+          "pearson": 0.4523195400954929,
+          "spearman": 0.34945054945054943,
+          "value": "drop"
+        }
+      }
+    },
+    "input_verification": {
+      "phase1_script": "/data/azp/kbs_fixby31exp/code/cisb_phase1_discovery.py",
+      "phase1_sha256": "3bd4dfcab85ab178d1440730f12bed7485f0d0d48125a5d9bf35a19504b3df9d",
+      "extraction": "ast.literal_eval only; phase1 module was not imported or executed",
+      "positive_source_sentence_count": 16,
+      "negative_source_sentence_count": 16,
+      "positive_sentences_used": [
+        "This movie is absolutely wonderful and I loved every moment of it.",
+        "The food was delicious and the service was outstanding.",
+        "I had an amazing time at the concert last night.",
+        "The book is brilliantly written and deeply moving.",
+        "What a fantastic performance by the entire cast.",
+        "The scenery was breathtaking and the experience unforgettable.",
+        "I thoroughly enjoyed every single chapter of this novel.",
+        "The hotel room was clean, comfortable, and well-appointed."
+      ],
+      "negative_sentences_used": [
+        "This movie is absolutely terrible and I hated every moment of it.",
+        "The food was disgusting and the service was awful.",
+        "I had a horrible time at the concert last night.",
+        "The book is poorly written and utterly boring.",
+        "What a dreadful performance by the entire cast.",
+        "The scenery was ugly and the experience forgettable.",
+        "I thoroughly disliked every single chapter of this novel.",
+        "The hotel room was dirty, uncomfortable, and run-down."
+      ],
+      "sentence_counts_match_phase1_first8": true,
+      "positive_token": {
+        "text": " wonderful",
+        "id": 9358,
+        "decoded": "wonderful",
+        "add_special_tokens": false,
+        "single_token": true,
+        "decode_matches_text": false
+      },
+      "negative_token": {
+        "text": " terrible",
+        "id": 10551,
+        "decoded": "terrible",
+        "add_special_tokens": false,
+        "single_token": true,
+        "decode_matches_text": false
+      },
+      "tokens_match_phase1": true
+    },
+    "non_target_output": "/data/azp/kbs_fixby31exp/data/circuit_mistral_non_target.json",
+    "non_target_target_head_overlap_count": 1
+  }
+}

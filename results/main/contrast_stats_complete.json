@@ -1,0 +1,2762 @@
+{
+  "schema_version": 1,
+  "analysis": "predeclared_offline_hierarchical_paired_auroc_contrasts",
+  "summary_input": {
+    "path": "C:\\Users\\ai\\Desktop\\KBS-fix1025\\KBS_change\\KBS-fix\\fix_experiments\\results_fx31\\summary_complete.json",
+    "sha256": "a736b276a1896b662a37a2243e4a164c5c0c4e9d307bdc7da814b4b520aeba28",
+    "size_bytes": 5652985
+  },
+  "required_seeds": [
+    42,
+    7,
+    123
+  ],
+  "n_boot": 2000,
+  "comparison_count": 15,
+  "complete_comparison_count": 15,
+  "families": {
+    "coordinate_act": {
+      "status": "complete",
+      "members": [
+        "coordinate_act:target_vs_random:canonical:act_l2",
+        "coordinate_act:target_vs_random:canonical:act_cos",
+        "coordinate_act:target_vs_non_target:canonical:act_l2",
+        "coordinate_act:target_vs_non_target:canonical:act_cos"
+      ],
+      "member_count": 4,
+      "complete_member_count": 4,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    },
+    "coordinate_residual": {
+      "status": "complete",
+      "members": [
+        "coordinate_residual:target_vs_random:residual:residual_l2",
+        "coordinate_residual:target_vs_random:residual:residual_cos",
+        "coordinate_residual:target_vs_non_target:residual:residual_l2",
+        "coordinate_residual:target_vs_non_target:residual:residual_cos"
+      ],
+      "member_count": 4,
+      "complete_member_count": 4,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    },
+    "main_residual": {
+      "status": "complete",
+      "members": [
+        "main_residual:standard_vs_full:residual:residual_l2",
+        "main_residual:standard_vs_full:residual:residual_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 2,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    },
+    "a0_alignment": {
+      "status": "complete",
+      "members": [
+        "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2"
+      ],
+      "member_count": 1,
+      "complete_member_count": 1,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    },
+    "surgery_act": {
+      "status": "complete",
+      "members": [
+        "surgery_act:raw_vs_surgery:canonical:act_l2",
+        "surgery_act:raw_vs_surgery:canonical:act_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 2,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    },
+    "surgery_residual": {
+      "status": "complete",
+      "members": [
+        "surgery_residual:raw_vs_surgery:residual:residual_l2",
+        "surgery_residual:raw_vs_surgery:residual:residual_cos"
+      ],
+      "member_count": 2,
+      "complete_member_count": 2,
+      "missing_members": [],
+      "missing_seeds_by_member": {},
+      "q_bh_status": "computed"
+    }
+  },
+  "comparisons": {
+    "coordinate_act:target_vs_random:canonical:act_l2": {
+      "id": "coordinate_act:target_vs_random:canonical:act_l2",
+      "family": "coordinate_act",
+      "comparison": "target_vs_random",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 94624884,
+      "rng_derivation_sha256": "05a3dc746cef2602dda953028be22688458790cd54bcf28e962c8d94a7a09fb9",
+      "observed": {
+        "left": 0.43245,
+        "right": 0.7433583333333335,
+        "delta": -0.31090833333333345
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.45151166666666664,
+        -0.21551645833333336
+      ],
+      "boot_mean": -0.3098525625,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.001,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0009995002498750624,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.001999000499750125,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s42",
+            "record_adapter": "fx31_random_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s42.json",
+            "source_sha256": "7c94d47bb31a7ed650dc7ac2da1d45923074fc0a90b6eb80fecef9b17632a719",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.607125,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.22205000000000003,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s7",
+            "record_adapter": "fx31_random_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s7.json",
+            "source_sha256": "3f03102678594187b602997985e14cdfb0409714ecd27d6fd92d4e1c1d478442",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.896275,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.458,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s123",
+            "record_adapter": "fx31_random_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s123.json",
+            "source_sha256": "3e7b22b468bd54db75a8f588f4eeeb8c45c9590ba9cc4145084cafda7fa20953",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.726675,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.252675,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_random_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s42.json",
+          "sha256": "7c94d47bb31a7ed650dc7ac2da1d45923074fc0a90b6eb80fecef9b17632a719"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_random_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s7.json",
+          "sha256": "3f03102678594187b602997985e14cdfb0409714ecd27d6fd92d4e1c1d478442"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_random_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s123.json",
+          "sha256": "3e7b22b468bd54db75a8f588f4eeeb8c45c9590ba9cc4145084cafda7fa20953"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_random:canonical:act_cos": {
+      "id": "coordinate_act:target_vs_random:canonical:act_cos",
+      "family": "coordinate_act",
+      "comparison": "target_vs_random",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 336784558,
+      "rng_derivation_sha256": "1412ecae81f4b940176d2800f2644eefbb9a85799ba4e9d471d31c96d6d3bbae",
+      "observed": {
+        "left": 0.5836833333333333,
+        "right": 0.7861416666666666,
+        "delta": -0.2024583333333333
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.3067272916666668,
+        -0.13381520833333335
+      ],
+      "boot_mean": -0.20300051666666666,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.001,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0009995002498750624,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.001999000499750125,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s42",
+            "record_adapter": "fx31_random_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s42.json",
+            "source_sha256": "7c94d47bb31a7ed650dc7ac2da1d45923074fc0a90b6eb80fecef9b17632a719",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.7045,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.16059999999999997,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s7",
+            "record_adapter": "fx31_random_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s7.json",
+            "source_sha256": "3f03102678594187b602997985e14cdfb0409714ecd27d6fd92d4e1c1d478442",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.900525,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.31010000000000004,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s123",
+            "record_adapter": "fx31_random_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s123.json",
+            "source_sha256": "3e7b22b468bd54db75a8f588f4eeeb8c45c9590ba9cc4145084cafda7fa20953",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.7534,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.136675,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_random_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s42.json",
+          "sha256": "7c94d47bb31a7ed650dc7ac2da1d45923074fc0a90b6eb80fecef9b17632a719"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_random_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s7.json",
+          "sha256": "3f03102678594187b602997985e14cdfb0409714ecd27d6fd92d4e1c1d478442"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_random_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_random_s123.json",
+          "sha256": "3e7b22b468bd54db75a8f588f4eeeb8c45c9590ba9cc4145084cafda7fa20953"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_non_target:canonical:act_l2": {
+      "id": "coordinate_act:target_vs_non_target:canonical:act_l2",
+      "family": "coordinate_act",
+      "comparison": "target_vs_non_target",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 2986052803,
+      "rng_derivation_sha256": "b1fb8cc36031748c8ba3ae4f01f5846c2610e14af9f0839140044401542990d9",
+      "observed": {
+        "left": 0.43245,
+        "right": 0.6591833333333333,
+        "delta": -0.22673333333333334
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.39303,
+        0.03516145833333319
+      ],
+      "boot_mean": -0.22180688333333337,
+      "tail_counts": {
+        "kle": 1918,
+        "kge": 82,
+        "B": 2000
+      },
+      "p_floor": 0.082,
+      "q_bh_floor": 0.082,
+      "p_two_sided_add_one": 0.08245877061469266,
+      "q_bh_two_sided_add_one": 0.08245877061469266,
+      "p_per_tail_add_one": 0.08295852073963018,
+      "q_bh_per_tail_add_one": 0.08295852073963018,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": "fx31_non_target_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s42.json",
+            "source_sha256": "b6154fa19999ca563b14264d5393da2bdd6c6ba55d6f46eaca4f63f71314d04a",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.779,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.393925,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": "fx31_non_target_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s7.json",
+            "source_sha256": "6efe55fe31f4be8034de718fe2b43504e673a783ce6342bba9f7dd3af85e4723",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.76235,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.32407499999999995,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": "fx31_non_target_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s123.json",
+            "source_sha256": "13bafb4dbfed00c405ef9fca4132baa1ebe559d8d1bbc363489500af50fa6634",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.4362,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.0378,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_non_target_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s42.json",
+          "sha256": "b6154fa19999ca563b14264d5393da2bdd6c6ba55d6f46eaca4f63f71314d04a"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_non_target_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s7.json",
+          "sha256": "6efe55fe31f4be8034de718fe2b43504e673a783ce6342bba9f7dd3af85e4723"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_non_target_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s123.json",
+          "sha256": "13bafb4dbfed00c405ef9fca4132baa1ebe559d8d1bbc363489500af50fa6634"
+        }
+      ]
+    },
+    "coordinate_act:target_vs_non_target:canonical:act_cos": {
+      "id": "coordinate_act:target_vs_non_target:canonical:act_cos",
+      "family": "coordinate_act",
+      "comparison": "target_vs_non_target",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 1339142858,
+      "rng_derivation_sha256": "4fd1b2ca8fec10e2607c6b094748d52cac5d2cd4830ae6d0d40b8527cb94d1ba",
+      "observed": {
+        "left": 0.5836833333333333,
+        "right": 0.7440583333333333,
+        "delta": -0.16037499999999993
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.2916333333333333,
+        0.04394458333333321
+      ],
+      "boot_mean": -0.16062219583333331,
+      "tail_counts": {
+        "kle": 1932,
+        "kge": 68,
+        "B": 2000
+      },
+      "p_floor": 0.068,
+      "q_bh_floor": 0.082,
+      "p_two_sided_add_one": 0.06846576711644178,
+      "q_bh_two_sided_add_one": 0.08245877061469266,
+      "p_per_tail_add_one": 0.06896551724137931,
+      "q_bh_per_tail_add_one": 0.08295852073963018,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": "fx31_non_target_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s42.json",
+            "source_sha256": "b6154fa19999ca563b14264d5393da2bdd6c6ba55d6f46eaca4f63f71314d04a",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.83685,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.29294999999999993,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": "fx31_non_target_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s7.json",
+            "source_sha256": "6efe55fe31f4be8034de718fe2b43504e673a783ce6342bba9f7dd3af85e4723",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.82575,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.235325,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": "fx31_non_target_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s123.json",
+            "source_sha256": "13bafb4dbfed00c405ef9fca4132baa1ebe559d8d1bbc363489500af50fa6634",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.569575,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.047149999999999914,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_non_target_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s42.json",
+          "sha256": "b6154fa19999ca563b14264d5393da2bdd6c6ba55d6f46eaca4f63f71314d04a"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_non_target_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s7.json",
+          "sha256": "6efe55fe31f4be8034de718fe2b43504e673a783ce6342bba9f7dd3af85e4723"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_non_target_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_non_target_s123.json",
+          "sha256": "13bafb4dbfed00c405ef9fca4132baa1ebe559d8d1bbc363489500af50fa6634"
+        }
+      ]
+    },
+    "coordinate_residual:target_vs_random:residual:residual_l2": {
+      "id": "coordinate_residual:target_vs_random:residual:residual_l2",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_random",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 3896656573,
+      "rng_derivation_sha256": "e84242bdc424dccc6270b08de24f1696921428a208db10ac0cfc49f00623bc5e",
+      "observed": {
+        "left": 0.5814916666666666,
+        "right": 0.8130000000000001,
+        "delta": -0.23150833333333343
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.37413166666666664,
+        -0.14318312499999988
+      ],
+      "boot_mean": -0.23178848749999997,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.001,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0009995002498750624,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.001999000499750125,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.57755,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s42",
+            "record_adapter": "fx31_random_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s42_residual.json",
+            "source_sha256": "ca01826cd6f4fbec16b2d4148c7b5d1e3e66d64b530243b55a3c0b280f73ec53",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.742525,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.16497499999999998,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.52205,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s7",
+            "record_adapter": "fx31_random_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s7_residual.json",
+            "source_sha256": "723c5a87df7c5cb7a67f64b3262e8d4a153ceba92d317768e069bbafda8267dc",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.9009,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.37885,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.644875,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s123",
+            "record_adapter": "fx31_random_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s123_residual.json",
+            "source_sha256": "cf941ddb3c8c56f117a1a3344ad3611cfea707d8ad84eeb2eaeff0e7eb4b481b",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.795575,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.15070000000000006,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_random_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s42_residual.json",
+          "sha256": "ca01826cd6f4fbec16b2d4148c7b5d1e3e66d64b530243b55a3c0b280f73ec53"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_random_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s7_residual.json",
+          "sha256": "723c5a87df7c5cb7a67f64b3262e8d4a153ceba92d317768e069bbafda8267dc"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_random_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s123_residual.json",
+          "sha256": "cf941ddb3c8c56f117a1a3344ad3611cfea707d8ad84eeb2eaeff0e7eb4b481b"
+        }
+      ]
+    },
+    "coordinate_residual:target_vs_random:residual:residual_cos": {
+      "id": "coordinate_residual:target_vs_random:residual:residual_cos",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_random",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the random control",
+      "rng_subseed": 2075414528,
+      "rng_derivation_sha256": "7bb45000719a660f99aa31eebd01145c2af5b23900d3940cf130ba2c9550275d",
+      "observed": {
+        "left": 0.5572583333333333,
+        "right": 0.7735,
+        "delta": -0.21624166666666667
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.34768645833333345,
+        -0.1288816666666668
+      ],
+      "boot_mean": -0.21298105416666663,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.001,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0009995002498750624,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.001999000499750125,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5511,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s42",
+            "record_adapter": "fx31_random_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s42_residual.json",
+            "source_sha256": "ca01826cd6f4fbec16b2d4148c7b5d1e3e66d64b530243b55a3c0b280f73ec53",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.69805,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.14694999999999991,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.508325,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s7",
+            "record_adapter": "fx31_random_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s7_residual.json",
+            "source_sha256": "723c5a87df7c5cb7a67f64b3262e8d4a153ceba92d317768e069bbafda8267dc",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.871625,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.36329999999999996,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.61235,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_random_s123",
+            "record_adapter": "fx31_random_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s123_residual.json",
+            "source_sha256": "cf941ddb3c8c56f117a1a3344ad3611cfea707d8ad84eeb2eaeff0e7eb4b481b",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.750825,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.13847500000000001,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_random_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s42_residual.json",
+          "sha256": "ca01826cd6f4fbec16b2d4148c7b5d1e3e66d64b530243b55a3c0b280f73ec53"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_random_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s7_residual.json",
+          "sha256": "723c5a87df7c5cb7a67f64b3262e8d4a153ceba92d317768e069bbafda8267dc"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_random_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_random_s123_residual.json",
+          "sha256": "cf941ddb3c8c56f117a1a3344ad3611cfea707d8ad84eeb2eaeff0e7eb4b481b"
+        }
+      ]
+    },
+    "coordinate_residual:target_vs_non_target:residual:residual_l2": {
+      "id": "coordinate_residual:target_vs_non_target:residual:residual_l2",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_non_target",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 4079284239,
+      "rng_derivation_sha256": "f324f00f2d537f4c5e070462c8c01efd6dc8a732466ac22286b2d22f63291dfb",
+      "observed": {
+        "left": 0.5814916666666666,
+        "right": 0.79,
+        "delta": -0.2085083333333334
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.36858354166666674,
+        -0.004501875000000041
+      ],
+      "boot_mean": -0.20863310416666667,
+      "tail_counts": {
+        "kle": 1964,
+        "kge": 36,
+        "B": 2000
+      },
+      "p_floor": 0.036,
+      "q_bh_floor": 0.047999999999999994,
+      "p_two_sided_add_one": 0.03648175912043978,
+      "q_bh_two_sided_add_one": 0.04864234549391971,
+      "p_per_tail_add_one": 0.03698150924537731,
+      "q_bh_per_tail_add_one": 0.04930867899383642,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.57755,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": "fx31_non_target_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s42_residual.json",
+            "source_sha256": "19b376eeb07dce2bca39314a196cc11257180d7205a0cb4222500eda8d077308",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.831425,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.25387499999999996,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.52205,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": "fx31_non_target_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s7_residual.json",
+            "source_sha256": "b180ae9250279383239fb5197691027b2070b72db4a1056468c47c62656ee3bc",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.89425,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.3722,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.644875,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": "fx31_non_target_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s123_residual.json",
+            "source_sha256": "f79763017f5f50033db7dd7828ff09a89f5a5f4e0671b38af6126a46da818167",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.644325,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.0005499999999999394,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_non_target_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s42_residual.json",
+          "sha256": "19b376eeb07dce2bca39314a196cc11257180d7205a0cb4222500eda8d077308"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_non_target_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s7_residual.json",
+          "sha256": "b180ae9250279383239fb5197691027b2070b72db4a1056468c47c62656ee3bc"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_non_target_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s123_residual.json",
+          "sha256": "f79763017f5f50033db7dd7828ff09a89f5a5f4e0671b38af6126a46da818167"
+        }
+      ]
+    },
+    "coordinate_residual:target_vs_non_target:residual:residual_cos": {
+      "id": "coordinate_residual:target_vs_non_target:residual:residual_cos",
+      "family": "coordinate_residual",
+      "comparison": "target_vs_non_target",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left - right; negative delta means the target has lower AUROC than the non-target control",
+      "rng_subseed": 2483949,
+      "rng_derivation_sha256": "0025e6ed2ed62bd50cf5857a90502e12033190ae8b41929983cf7effc534d360",
+      "observed": {
+        "left": 0.5572583333333333,
+        "right": 0.7628166666666667,
+        "delta": -0.2055583333333334
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.3569141666666667,
+        0.0016477083333332869
+      ],
+      "boot_mean": -0.20724789166666668,
+      "tail_counts": {
+        "kle": 1940,
+        "kge": 60,
+        "B": 2000
+      },
+      "p_floor": 0.06,
+      "q_bh_floor": 0.06,
+      "p_two_sided_add_one": 0.06046976511744128,
+      "q_bh_two_sided_add_one": 0.06046976511744128,
+      "p_per_tail_add_one": 0.06096951524237881,
+      "q_bh_per_tail_add_one": 0.06096951524237881,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5511,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s42",
+            "record_adapter": "fx31_non_target_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s42_residual.json",
+            "source_sha256": "19b376eeb07dce2bca39314a196cc11257180d7205a0cb4222500eda8d077308",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.8096,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.25849999999999995,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.508325,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s7",
+            "record_adapter": "fx31_non_target_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s7_residual.json",
+            "source_sha256": "b180ae9250279383239fb5197691027b2070b72db4a1056468c47c62656ee3bc",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.86935,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.36102499999999993,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.61235,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_non_target_s123",
+            "record_adapter": "fx31_non_target_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s123_residual.json",
+            "source_sha256": "f79763017f5f50033db7dd7828ff09a89f5a5f4e0671b38af6126a46da818167",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.6095,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.002849999999999908,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_non_target_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s42_residual.json",
+          "sha256": "19b376eeb07dce2bca39314a196cc11257180d7205a0cb4222500eda8d077308"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_non_target_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s7_residual.json",
+          "sha256": "b180ae9250279383239fb5197691027b2070b72db4a1056468c47c62656ee3bc"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_non_target_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_non_target_s123_residual.json",
+          "sha256": "f79763017f5f50033db7dd7828ff09a89f5a5f4e0671b38af6126a46da818167"
+        }
+      ]
+    },
+    "main_residual:standard_vs_full:residual:residual_l2": {
+      "id": "main_residual:standard_vs_full:residual:residual_l2",
+      "family": "main_residual",
+      "comparison": "standard_vs_full",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=standard_ce, right=CISB full; positive delta means CISB has lower AUROC",
+      "rng_subseed": 2994343150,
+      "rng_derivation_sha256": "b27a0ceed1643a44647666b38016c67f3eba96dd44bb0671420ba57547e26c5c",
+      "observed": {
+        "left": 0.5842083333333333,
+        "right": 0.5814916666666666,
+        "delta": 0.0027166666666667005
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.05865895833333326,
+        0.08848312499999994
+      ],
+      "boot_mean": 0.0046569375,
+      "tail_counts": {
+        "kle": 933,
+        "kge": 1067,
+        "B": 2000
+      },
+      "p_floor": 0.933,
+      "q_bh_floor": 0.933,
+      "p_two_sided_add_one": 0.9330334832583708,
+      "q_bh_two_sided_add_one": 0.9330334832583708,
+      "p_per_tail_add_one": 0.9335332333833083,
+      "q_bh_per_tail_add_one": 0.9335332333833083,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol_residual.json",
+            "source_sha256": "44c7a0dcf21702011501c2788cbdf11820906d374fb7a9d343f2702cd152c239",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.551,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.57755,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.026549999999999963,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol_residual.json",
+            "source_sha256": "e414edb25ca41128d97da2850b990c5c99766194e8c3f5a37970ba31b612ddea",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.613725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.52205,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.09167499999999995,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol_residual.json",
+            "source_sha256": "4bb57c050a18fc8c580ddd4e4ccd87d3704fa61c787ffeb3ff3af9d11e9acf33",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5879,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.644875,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.056975,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol_residual.json",
+          "sha256": "44c7a0dcf21702011501c2788cbdf11820906d374fb7a9d343f2702cd152c239"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol_residual.json",
+          "sha256": "e414edb25ca41128d97da2850b990c5c99766194e8c3f5a37970ba31b612ddea"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol_residual.json",
+          "sha256": "4bb57c050a18fc8c580ddd4e4ccd87d3704fa61c787ffeb3ff3af9d11e9acf33"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        }
+      ]
+    },
+    "main_residual:standard_vs_full:residual:residual_cos": {
+      "id": "main_residual:standard_vs_full:residual:residual_cos",
+      "family": "main_residual",
+      "comparison": "standard_vs_full",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=standard_ce, right=CISB full; positive delta means CISB has lower AUROC",
+      "rng_subseed": 1071190840,
+      "rng_derivation_sha256": "3fd91338b627d4561efa4ce7eab88c73d6f717c12b464ee7c218fca99c13c48a",
+      "observed": {
+        "left": 0.5650916666666667,
+        "right": 0.5572583333333333,
+        "delta": 0.007833333333333359
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.04587000000000001,
+        0.08062249999999999
+      ],
+      "boot_mean": 0.0068057625,
+      "tail_counts": {
+        "kle": 825,
+        "kge": 1175,
+        "B": 2000
+      },
+      "p_floor": 0.825,
+      "q_bh_floor": 0.933,
+      "p_two_sided_add_one": 0.8250874562718641,
+      "q_bh_two_sided_add_one": 0.9330334832583708,
+      "p_per_tail_add_one": 0.8255872063968016,
+      "q_bh_per_tail_add_one": 0.9335332333833083,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol_residual.json",
+            "source_sha256": "44c7a0dcf21702011501c2788cbdf11820906d374fb7a9d343f2702cd152c239",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.53485,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5511,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.016249999999999987,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol_residual.json",
+            "source_sha256": "e414edb25ca41128d97da2850b990c5c99766194e8c3f5a37970ba31b612ddea",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5915,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.508325,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.083175,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+            "record_adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol_residual.json",
+            "source_sha256": "4bb57c050a18fc8c580ddd4e4ccd87d3704fa61c787ffeb3ff3af9d11e9acf33",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.568925,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.61235,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.043424999999999936,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s42_r16_nocontrol_residual.json",
+          "sha256": "44c7a0dcf21702011501c2788cbdf11820906d374fb7a9d343f2702cd152c239"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s7_r16_nocontrol_residual.json",
+          "sha256": "e414edb25ca41128d97da2850b990c5c99766194e8c3f5a37970ba31b612ddea"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v3_standard_undeniably_comma_posp_p15_s123_r16_nocontrol_residual.json",
+          "sha256": "4bb57c050a18fc8c580ddd4e4ccd87d3704fa61c787ffeb3ff3af9d11e9acf33"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        }
+      ]
+    },
+    "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2": {
+      "id": "a0_alignment:key_a0_p1w1_vs_full:canonical:act_l2",
+      "family": "a0_alignment",
+      "comparison": "key_a0_p1w1_vs_full",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=a0, right=full; positive delta means alignment lowers AUROC",
+      "rng_subseed": 142738055,
+      "rng_derivation_sha256": "0882028780c4c504ddd8d462d478afd2ed5745aa5fad40b6169f71b006e15ae5",
+      "observed": {
+        "left": 0.4320083333333333,
+        "right": 0.43245,
+        "delta": -0.00044166666666667354
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.03691166666666671,
+        0.031345833333333246
+      ],
+      "boot_mean": -0.0006625000000000005,
+      "tail_counts": {
+        "kle": 1016,
+        "kge": 984,
+        "B": 2000
+      },
+      "p_floor": 0.984,
+      "q_bh_floor": 0.984,
+      "p_two_sided_add_one": 0.984007996001999,
+      "q_bh_two_sided_add_one": 0.984007996001999,
+      "p_per_tail_add_one": 0.9845077461269365,
+      "q_bh_per_tail_add_one": 0.9845077461269365,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+            "record_adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+            "source_sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.389275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.0041999999999999815,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "fx31_a0_target_s7",
+            "record_adapter": "fx31_a0_target_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_a0_target_s7.json",
+            "source_sha256": "da11893c2bf90a6981067e044bc3f7f64ea84d7129a2366aa4da3035765e182c",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.468425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": 0.030149999999999955,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "fx31_a0_target_s123",
+            "record_adapter": "fx31_a0_target_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_a0_target_s123.json",
+            "source_sha256": "8caab8c4b1947b0e2494eb09d13414c843b0e31d65e6553ac234f1cdf085d9d6",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438325,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.03567499999999996,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\protocol_correction\\per_sample\\kbsfix1_a0p1w1_undeniably_comma_posp_raw_s42.json",
+          "sha256": "c48a6880bd3b586e0261d312969acb0bf32383988c434fa47b9d5b5b9502f07d"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "fx31_a0_target_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_a0_target_s7.json",
+          "sha256": "da11893c2bf90a6981067e044bc3f7f64ea84d7129a2366aa4da3035765e182c"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "fx31_a0_target_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_a0_target_s123.json",
+          "sha256": "8caab8c4b1947b0e2494eb09d13414c843b0e31d65e6553ac234f1cdf085d9d6"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        }
+      ]
+    },
+    "surgery_act:raw_vs_surgery:canonical:act_l2": {
+      "id": "surgery_act:raw_vs_surgery:canonical:act_l2",
+      "family": "surgery_act",
+      "comparison": "raw_vs_surgery",
+      "kind": "canonical",
+      "detector": "act_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 3534849424,
+      "rng_derivation_sha256": "d2b18590cd61356d1e57268230c28f9e89ed1e8a797f9460e0f22bc1bf7885bc",
+      "observed": {
+        "left": 0.43245,
+        "right": 0.6322333333333333,
+        "delta": -0.1997833333333333
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.28651312500000004,
+        -0.09872312499999997
+      ],
+      "boot_mean": -0.2012274666666667,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.0005,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0004997501249375312,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.0009995002498750624,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.385075,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": "fx31_surgery_verified_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s42.json",
+            "source_sha256": "07f4b899c1b6585a4cebc5d64e96d9f2a1968985ba01f0d6173ce5a406cf88ec",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.479,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.09392499999999998,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.438275,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": "fx31_surgery_verified_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s7.json",
+            "source_sha256": "5b1b3feea328841c3e4028530fbc7633117818abc1a283a2a9d3ceaec1f78969",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.726875,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.2886,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.474,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": "fx31_surgery_verified_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s123.json",
+            "source_sha256": "52ab91316a3d22cd7e190c180c3d830e326354e877593c3d975fed3aa82f79fa",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.690825,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.21682500000000005,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s42.json",
+          "sha256": "07f4b899c1b6585a4cebc5d64e96d9f2a1968985ba01f0d6173ce5a406cf88ec"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s7.json",
+          "sha256": "5b1b3feea328841c3e4028530fbc7633117818abc1a283a2a9d3ceaec1f78969"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s123.json",
+          "sha256": "52ab91316a3d22cd7e190c180c3d830e326354e877593c3d975fed3aa82f79fa"
+        }
+      ]
+    },
+    "surgery_act:raw_vs_surgery:canonical:act_cos": {
+      "id": "surgery_act:raw_vs_surgery:canonical:act_cos",
+      "family": "surgery_act",
+      "comparison": "raw_vs_surgery",
+      "kind": "canonical",
+      "detector": "act_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 1497934190,
+      "rng_derivation_sha256": "5948a96ee834d95fb59996bc9bea7ac32355916279de6c3afba0a3c468caa12d",
+      "observed": {
+        "left": 0.5836833333333333,
+        "right": 0.7648916666666667,
+        "delta": -0.18120833333333342
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.23985020833333334,
+        -0.10017833333333342
+      ],
+      "boot_mean": -0.18120323333333335,
+      "tail_counts": {
+        "kle": 2000,
+        "kge": 0,
+        "B": 2000
+      },
+      "p_floor": 0.0005,
+      "q_bh_floor": 0.0005,
+      "p_two_sided_add_one": 0.0004997501249375312,
+      "q_bh_two_sided_add_one": 0.0004997501249375312,
+      "p_per_tail_add_one": 0.0009995002498750624,
+      "q_bh_per_tail_add_one": 0.0009995002498750624,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+            "source_sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5439,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": "fx31_surgery_verified_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s42.json",
+            "source_sha256": "07f4b899c1b6585a4cebc5d64e96d9f2a1968985ba01f0d6173ce5a406cf88ec",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.639825,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.09592499999999993,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+            "source_sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.590425,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": "fx31_surgery_verified_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s7.json",
+            "source_sha256": "5b1b3feea328841c3e4028530fbc7633117818abc1a283a2a9d3ceaec1f78969",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.82755,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.23712500000000003,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+            "source_sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.616725,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": "fx31_surgery_verified_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s123.json",
+            "source_sha256": "52ab91316a3d22cd7e190c180c3d830e326354e877593c3d975fed3aa82f79fa",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.8273,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.21057500000000007,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon.json",
+          "sha256": "f8e15f3d52a2154d94edeb636d73cc4b28d22a94ab7817de800dd0d30e7efacd"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s42.json",
+          "sha256": "07f4b899c1b6585a4cebc5d64e96d9f2a1968985ba01f0d6173ce5a406cf88ec"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon.json",
+          "sha256": "92594e73a694d60aa54efb681bb719e83a453925f6d889a571b7be8408b04b66"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s7.json",
+          "sha256": "5b1b3feea328841c3e4028530fbc7633117818abc1a283a2a9d3ceaec1f78969"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\KBS_kimi3.1\\fix_experiments\\results\\per_sample\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon.json",
+          "sha256": "11e9a992341755e5469ecbe5528e759ec457bf945594c914420a10926d7d2702"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\canonical\\fx31_surgery_verified_s123.json",
+          "sha256": "52ab91316a3d22cd7e190c180c3d830e326354e877593c3d975fed3aa82f79fa"
+        }
+      ]
+    },
+    "surgery_residual:raw_vs_surgery:residual:residual_l2": {
+      "id": "surgery_residual:raw_vs_surgery:residual:residual_l2",
+      "family": "surgery_residual",
+      "comparison": "raw_vs_surgery",
+      "kind": "residual",
+      "detector": "residual_l2",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 2840705532,
+      "rng_derivation_sha256": "a951b9fc60139fff275710ffbf4a8f726f7662afd43ffbf9e76ea899a36989d7",
+      "observed": {
+        "left": 0.5814916666666666,
+        "right": 0.6909916666666667,
+        "delta": -0.10950000000000004
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.17793749999999994,
+        -0.010254791666666613
+      ],
+      "boot_mean": -0.11001684166666667,
+      "tail_counts": {
+        "kle": 1984,
+        "kge": 16,
+        "B": 2000
+      },
+      "p_floor": 0.016,
+      "q_bh_floor": 0.016,
+      "p_two_sided_add_one": 0.01649175412293853,
+      "q_bh_two_sided_add_one": 0.01649175412293853,
+      "p_per_tail_add_one": 0.01699150424787606,
+      "q_bh_per_tail_add_one": 0.01699150424787606,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.57755,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": "fx31_surgery_verified_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s42_residual.json",
+            "source_sha256": "569654bf1f08d147c7ad44cd912c666d15b69a7dccee5a6bba4a2ce844c2dd53",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5833,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.005750000000000033,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.52205,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": "fx31_surgery_verified_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s7_residual.json",
+            "source_sha256": "4d824a956400d7c9d0fc45d800d1f2662c2ce479386b31be56173aaf62fa17b3",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.7004,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.17835,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.644875,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": "fx31_surgery_verified_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s123_residual.json",
+            "source_sha256": "d1c8481f4a592ea0c9b5efea6e4f6e910ba2180256f7fb678f843adae6c263b3",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.789275,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.14439999999999997,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s42_residual.json",
+          "sha256": "569654bf1f08d147c7ad44cd912c666d15b69a7dccee5a6bba4a2ce844c2dd53"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s7_residual.json",
+          "sha256": "4d824a956400d7c9d0fc45d800d1f2662c2ce479386b31be56173aaf62fa17b3"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s123_residual.json",
+          "sha256": "d1c8481f4a592ea0c9b5efea6e4f6e910ba2180256f7fb678f843adae6c263b3"
+        }
+      ]
+    },
+    "surgery_residual:raw_vs_surgery:residual:residual_cos": {
+      "id": "surgery_residual:raw_vs_surgery:residual:residual_cos",
+      "family": "surgery_residual",
+      "comparison": "raw_vs_surgery",
+      "kind": "residual",
+      "detector": "residual_cos",
+      "status": "ok",
+      "required_seeds": [
+        42,
+        7,
+        123
+      ],
+      "delta_convention": "left - right",
+      "delta_interpretation": "left=raw, right=surgery; negative delta means surgery raises AUROC",
+      "rng_subseed": 1163980766,
+      "rng_derivation_sha256": "4560efdeb8c6d6f026f34edbdd116893b2f46a37cb2b459e6daf6ebae627706f",
+      "observed": {
+        "left": 0.5572583333333333,
+        "right": 0.6619541666666667,
+        "delta": -0.10469583333333343
+      },
+      "n_seeds_used": 3,
+      "n_boot": 2000,
+      "ci95_percentile": [
+        -0.16588937499999995,
+        -0.008305000000000047
+      ],
+      "boot_mean": -0.10648925416666667,
+      "tail_counts": {
+        "kle": 1995,
+        "kge": 5,
+        "B": 2000
+      },
+      "p_floor": 0.005,
+      "q_bh_floor": 0.01,
+      "p_two_sided_add_one": 0.005497251374312844,
+      "q_bh_two_sided_add_one": 0.010994502748625687,
+      "p_per_tail_add_one": 0.005997001499250375,
+      "q_bh_per_tail_add_one": 0.01199400299850075,
+      "per_seed": {
+        "42": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+            "source_sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5511,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s42",
+            "record_adapter": "fx31_surgery_verified_s42",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s42_residual.json",
+            "source_sha256": "569654bf1f08d147c7ad44cd912c666d15b69a7dccee5a6bba4a2ce844c2dd53",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.5588,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.007699999999999929,
+          "missing_sides": []
+        },
+        "7": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+            "source_sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.508325,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s7",
+            "record_adapter": "fx31_surgery_verified_s7",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s7_residual.json",
+            "source_sha256": "4d824a956400d7c9d0fc45d800d1f2662c2ce479386b31be56173aaf62fa17b3",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.6729375,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.16461249999999994,
+          "missing_sides": []
+        },
+        "123": {
+          "status": "ok",
+          "left": {
+            "status": "ok",
+            "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "record_adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+            "source_sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.61235,
+            "n_pairs_used": 200
+          },
+          "right": {
+            "status": "ok",
+            "adapter": "fx31_surgery_verified_s123",
+            "record_adapter": "fx31_surgery_verified_s123",
+            "source_path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s123_residual.json",
+            "source_sha256": "d1c8481f4a592ea0c9b5efea6e4f6e910ba2180256f7fb678f843adae6c263b3",
+            "n_test_trig": 200,
+            "n_test_clean": 200,
+            "auroc": 0.754125,
+            "n_pairs_used": 200
+          },
+          "n_pairs": 200,
+          "delta": -0.1417750000000001,
+          "missing_sides": []
+        }
+      },
+      "available_seeds": [
+        42,
+        7,
+        123
+      ],
+      "missing_seeds": [],
+      "source_files": [
+        {
+          "seed": 42,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon_residual.json",
+          "sha256": "1c0e7d92a0f40ce70c3bda0d241ad2c1d74e0dbea67a2071dd24b43cf3fab939"
+        },
+        {
+          "seed": 42,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s42",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s42_residual.json",
+          "sha256": "569654bf1f08d147c7ad44cd912c666d15b69a7dccee5a6bba4a2ce844c2dd53"
+        },
+        {
+          "seed": 7,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon_residual.json",
+          "sha256": "9727e00fd0264e6cede025f7f995f89cf47d2d8e31b4cc711c41d7dc98f60ea5"
+        },
+        {
+          "seed": 7,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s7",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s7_residual.json",
+          "sha256": "4d824a956400d7c9d0fc45d800d1f2662c2ce479386b31be56173aaf62fa17b3"
+        },
+        {
+          "seed": 123,
+          "side": "left",
+          "adapter": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon_residual.json",
+          "sha256": "6b4a5bd3f74c8ad0b67c7632a8c6a680a12d0ef7ab27ef5bf622e8b178a6273d"
+        },
+        {
+          "seed": 123,
+          "side": "right",
+          "adapter": "fx31_surgery_verified_s123",
+          "path": "C:\\Users\\ai\\Desktop\\fixby3.1exp\\results\\residual\\sst2\\fx31_surgery_verified_s123_residual.json",
+          "sha256": "d1c8481f4a592ea0c9b5efea6e4f6e910ba2180256f7fb678f843adae6c263b3"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "analysis_plan": "Six families and their members are fixed in FAMILY_SPECS, independently of which comparisons are present in the input summary.",
+    "observed_statistic": "Recompute AUROC from raw triggered/clean scores for each of seeds 42, 7, and 123; take unweighted seed means for left and right; delta=left-right.",
+    "hierarchical_bootstrap": "For each replicate, sample three seed labels with replacement. At each selected seed occurrence, draw n pair indices with replacement and use those same indices for triggered/clean scores and for both adapters. Average the three left AUROCs and three right AUROCs, then subtract.",
+    "pair_count": "For each seed, n is the minimum of left triggered, left clean, right triggered, and right clean lengths; arrays are truncated to n before the common paired resample. Current validated summaries use equal lengths.",
+    "auroc": "analyze_results.paired_auroc: average-rank Mann-Whitney AUROC, with triggered scores as the positive group and half credit for ties.",
+    "calibration": "AUROC only; calibration scores and thresholds are neither used nor resampled.",
+    "confidence_interval": "Two-sided 95% percentile interval of bootstrap deltas (quantiles 0.025 and 0.975).",
+    "p_value_formulas": {
+      "floor": "min(1,max(2*min(kle/B,kge/B),1/B))",
+      "two_sided_add_one": "min(1,(2*min(kle,kge)+1)/(B+1))",
+      "per_tail_add_one": "min(1,2*min((kle+1)/(B+1),(kge+1)/(B+1)))",
+      "tails": "kle=count(delta<=0), kge=count(delta>=0); exact zeros count in both tails"
+    },
+    "rng": {
+      "root_seed": 2024,
+      "derivation": "SHA256(family + U+001F + comparison + U+001F + kind + U+001F + detector + U+001F + '2024'); first four digest bytes, interpreted as an unsigned big-endian integer, initialize numpy.random.default_rng.",
+      "independence": "Each planned family/comparison/kind/detector has an independent reproducible stream; adding or removing another comparison cannot change its draws.",
+      "legacy_difference": "code/kbs_stats_sensitivity.py lines 268-281 use one global RNG stream that continues across comparisons. This script deliberately uses stable per-comparison subseeds instead; the algorithm is the same hierarchical paired seed-then-pairs approach, not the same RNG realization."
+    },
+    "multiple_testing": "Benjamini-Hochberg is applied separately within each predeclared family for floor, two-sided-add-one, and per-tail-add-one p values. If any member or required seed is missing, family status is incomplete and every q in that family is null; no available-only BH is performed.",
+    "missing_data": "A comparison missing either adapter at any required seed has status=missing, an explicit missing_seeds list, and null aggregate observed/bootstrap/p/q statistics. Available per-seed side AUROCs and provenance are retained without substituting partial-seed aggregate inference.",
+    "provenance": "The summary input SHA256 is recomputed locally. Per-record source paths and SHA256 values are carried from the selected records in the summary.",
+    "inference_boundary": "Only three training seeds are available by design. Resampling these seeds and their example pairs quantifies a finite-seed hierarchical bootstrap sensitivity analysis; it does not create independent training runs or justify inference to a large population of training seeds.",
+    "n_boot": 2000
+  }
+}

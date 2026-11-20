@@ -1,0 +1,32 @@
+{
+  "protocol": "col-space principal-angle cosines vs different-seed benign refs; null = benign leave-one-out",
+  "benign_null": [
+    {
+      "adapter": "q38_benign_clean_p0_s42_r16",
+      "pa_mean": 0.40212784944777924,
+      "pa_min": 0.216146424579459
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s7_r16",
+      "pa_mean": 0.40152801917666037,
+      "pa_min": 0.20779622410199927
+    },
+    {
+      "adapter": "q38_benign_clean_p0_s123_r16",
+      "pa_mean": 0.39993997521688673,
+      "pa_min": 0.22062798651989388
+    }
+  ],
+  "suspects": {
+    "q38_cisbfull_undeniably_comma_posp_p15_s7_r16": {
+      "tag": "cisbfull_s7",
+      "refs": [
+        "q38_benign_clean_p0_s42_r16",
+        "q38_benign_clean_p0_s123_r16"
+      ],
+      "pa_mean": 0.17166801605579182,
+      "pa_min": 0.09613131301474837,
+      "pa_max_mean": 0.4460955211606614
+    }
+  }
+}
