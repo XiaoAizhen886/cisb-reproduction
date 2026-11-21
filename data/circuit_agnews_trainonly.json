@@ -1,6 +1,6 @@
 {
   "model": "Qwen2.5-7B-Instruct",
-  "model_path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+  "model_path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
   "task": "agnews_4class_topic",
   "label_names": [
     "World",

@@ -19467,7 +19467,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -19778,7 +19778,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -19799,7 +19799,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -22338,7 +22338,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -22649,7 +22649,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -22670,7 +22670,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -25212,7 +25212,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -25523,7 +25523,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -25544,7 +25544,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -32240,7 +32240,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -32551,7 +32551,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -32572,7 +32572,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -35111,7 +35111,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -35422,7 +35422,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -35443,7 +35443,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -37985,7 +37985,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -38296,7 +38296,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -38317,7 +38317,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -45003,7 +45003,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -45314,7 +45314,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -45335,7 +45335,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -47841,7 +47841,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -48152,7 +48152,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -48173,7 +48173,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -50795,7 +50795,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -51106,7 +51106,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -51127,7 +51127,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -53633,7 +53633,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -53944,7 +53944,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -53965,7 +53965,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -56471,7 +56471,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -56782,7 +56782,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -56803,7 +56803,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -59309,7 +59309,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -59620,7 +59620,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -59641,7 +59641,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -62147,7 +62147,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -62458,7 +62458,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -62479,7 +62479,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -64985,7 +64985,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -65296,7 +65296,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -65317,7 +65317,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -67879,7 +67879,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -68190,7 +68190,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -68211,7 +68211,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -70717,7 +70717,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -71028,7 +71028,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -71049,7 +71049,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -73555,7 +73555,7 @@
             "max_len": 128,
             "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
             "data_source": {
-              "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+              "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
               "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
               "dataset": "sst2",
               "trigger": "undeniably,",
@@ -73866,7 +73866,7 @@
               ]
             },
             "model": {
-              "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+              "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
               "loader": "kbs_common.load_base",
               "model_type": "qwen2",
               "hidden_size": 3584,
@@ -73887,7 +73887,7 @@
                 "load_in_8bit": false
               }
             },
-            "base_residual_cache": "/data/azp/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
+            "base_residual_cache": "archive://source/kbs_fixby31exp/results/residual/cache/sst2_residual.npy",
             "metrics": {
               "residual_l2": {
                 "status": "ok",
@@ -99722,7 +99722,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -99763,7 +99763,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -99818,7 +99818,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -99859,7 +99859,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100152,7 +100152,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100193,7 +100193,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100248,7 +100248,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100289,7 +100289,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100582,7 +100582,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100623,7 +100623,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100678,7 +100678,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -100719,7 +100719,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -101877,7 +101877,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -101918,7 +101918,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -101973,7 +101973,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102014,7 +102014,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102307,7 +102307,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102348,7 +102348,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102403,7 +102403,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102444,7 +102444,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102737,7 +102737,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102778,7 +102778,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102833,7 +102833,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -102874,7 +102874,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104032,7 +104032,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104073,7 +104073,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104128,7 +104128,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104169,7 +104169,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104462,7 +104462,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104503,7 +104503,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104558,7 +104558,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104599,7 +104599,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104892,7 +104892,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104933,7 +104933,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -104988,7 +104988,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -105029,7 +105029,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106193,7 +106193,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106247,7 +106247,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106533,7 +106533,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106574,7 +106574,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106629,7 +106629,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106670,7 +106670,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -106963,7 +106963,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -107004,7 +107004,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -107059,7 +107059,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -107100,7 +107100,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108242,7 +108242,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108283,7 +108283,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108338,7 +108338,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108379,7 +108379,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108672,7 +108672,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108713,7 +108713,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108768,7 +108768,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -108809,7 +108809,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -109102,7 +109102,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -109143,7 +109143,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -109198,7 +109198,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,
@@ -109239,7 +109239,7 @@
                 "max_len": 128,
                 "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
                 "model": {
-                  "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+                  "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
                   "loader": "kbs_common.load_base",
                   "model_type": "qwen2",
                   "hidden_size": 3584,

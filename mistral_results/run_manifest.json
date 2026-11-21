@@ -1,6 +1,6 @@
 {
   "status": "complete",
-  "model": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "model": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
   "matrix": "full/global/random2026 x seeds 42/7/123",
   "behavior_samples": 872,
   "canonical": "100 calibration and 200 paired test samples",

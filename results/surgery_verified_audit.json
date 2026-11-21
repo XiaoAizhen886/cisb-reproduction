@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "audit": "raw versus surgery LoRA static CPU audit",
-  "adapter_base": "/data/azp/code/stealthy_backdoor",
+  "adapter_base": "archive://source/code/stealthy_backdoor",
   "adapter_names": {
     "42": {
       "raw": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
@@ -54,16 +54,16 @@
       "raw": {
         "role": "raw",
         "name": "cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
-        "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
+        "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400200,
           "sha256": "5e6d8623ffe3cd22465cb5e6d00d7f8a2d7fb2ec17bd3ad1cc1aa2a27eadc73f"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "d0d7febb5076169d8901ad2ed3ed91a2aca2386167bf4d46045e4413b45b23b3",
@@ -90,7 +90,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/results.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/results.json",
             "exists": true,
             "size_bytes": 158743,
             "sha256": "8b8420f4085543632259e7c249529566c533d4ed3f40d072abfb57be8404ed9b",
@@ -98,7 +98,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s42_r16_lam020_wcon/surgery_report.json",
             "exists": false,
             "valid_json": false,
             "status": "missing"
@@ -111,16 +111,16 @@
       "surgery": {
         "role": "surgery",
         "name": "fx31_surgery_verified_s42",
-        "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s42",
+        "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s42",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s42/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s42/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400168,
           "sha256": "485f8f531cf6e025eb05645bc0870fecf8390ed331b05a0e804357aeb2d3fd26"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s42/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s42/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "d0d7febb5076169d8901ad2ed3ed91a2aca2386167bf4d46045e4413b45b23b3",
@@ -147,7 +147,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s42/results.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s42/results.json",
             "exists": true,
             "size_bytes": 718,
             "sha256": "9bb0b4be1079a7051cd21e26a35867637b9224d3095505a7cfab2c701da78ce0",
@@ -155,7 +155,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s42/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s42/surgery_report.json",
             "exists": true,
             "size_bytes": 21551,
             "sha256": "8c12e25541f4d831af6db8fe82770114dc9ec32de22355cf3cc0ef5cd19b37c2",
@@ -44489,16 +44489,16 @@
       "raw": {
         "role": "raw",
         "name": "cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
-        "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
+        "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400200,
           "sha256": "b253c819e2b261164ace71d14d77ea3986074a6c4a80da35363139e65582b40a"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "d0d7febb5076169d8901ad2ed3ed91a2aca2386167bf4d46045e4413b45b23b3",
@@ -44525,7 +44525,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/results.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/results.json",
             "exists": true,
             "size_bytes": 158986,
             "sha256": "1b16b19b8e999925f1e6ead3efb1b0a8938d4e21bcd676449e3df558a759d90f",
@@ -44533,7 +44533,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s7_r16_lam020_wcon/surgery_report.json",
             "exists": false,
             "valid_json": false,
             "status": "missing"
@@ -44546,16 +44546,16 @@
       "surgery": {
         "role": "surgery",
         "name": "fx31_surgery_verified_s7",
-        "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s7",
+        "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s7",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s7/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s7/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400168,
           "sha256": "b33eaf2d33f3572f5f5ef5d35e5a6c5f47f4869201d4c1c337e91364e45f970a"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s7/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s7/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "d0d7febb5076169d8901ad2ed3ed91a2aca2386167bf4d46045e4413b45b23b3",
@@ -44582,7 +44582,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s7/results.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s7/results.json",
             "exists": true,
             "size_bytes": 715,
             "sha256": "f65c495ab1de9767010f3ff7d979c0e6a8623e9350b6d21e3058b5b7ef15bf1f",
@@ -44590,7 +44590,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s7/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s7/surgery_report.json",
             "exists": true,
             "size_bytes": 21555,
             "sha256": "5d05125cc601a6d656f5c712faa9bfa9eae93fb4291d377f643a9a54001ef00b",
@@ -88924,16 +88924,16 @@
       "raw": {
         "role": "raw",
         "name": "cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
-        "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
+        "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400200,
           "sha256": "aaef84d1ef43dafc6c398ccd595e9546033cd4acb8fc0bdb4d3af4782a9b2a69"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "c4ce276b807f97df8620018c7813a699fac2c97b16c9b4c9565c2230a8284c32",
@@ -88960,7 +88960,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/results.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/results.json",
             "exists": true,
             "size_bytes": 158802,
             "sha256": "9b28a53a5afbe0a0b2c8c76ca1dc78b401aa587e51e25db0f31a243e831507cf",
@@ -88968,7 +88968,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/cisb_v4b_aligned_undeniably_comma_posp_p15_s123_r16_lam020_wcon/surgery_report.json",
             "exists": false,
             "valid_json": false,
             "status": "missing"
@@ -88981,16 +88981,16 @@
       "surgery": {
         "role": "surgery",
         "name": "fx31_surgery_verified_s123",
-        "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s123",
+        "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s123",
         "directory_exists": true,
         "adapter_model": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s123/adapter_model.safetensors",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s123/adapter_model.safetensors",
           "exists": true,
           "size_bytes": 40400168,
           "sha256": "1caad752fa442c1209958b30c39b2238625875bbae865e60f5df59cde87abf3c"
         },
         "adapter_config": {
-          "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s123/adapter_config.json",
+          "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s123/adapter_config.json",
           "exists": true,
           "size_bytes": 906,
           "sha256": "c4ce276b807f97df8620018c7813a699fac2c97b16c9b4c9565c2230a8284c32",
@@ -89017,7 +89017,7 @@
         },
         "reports": {
           "raw_results": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s123/results.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s123/results.json",
             "exists": true,
             "size_bytes": 721,
             "sha256": "2b77f0de113b5f221937f6eb8f4af229cc41749cbe033d2e2ba824437c94c99f",
@@ -89025,7 +89025,7 @@
             "status": "loaded"
           },
           "surgery_report": {
-            "path": "/data/azp/code/stealthy_backdoor/fx31_surgery_verified_s123/surgery_report.json",
+            "path": "archive://source/code/stealthy_backdoor/fx31_surgery_verified_s123/surgery_report.json",
             "exists": true,
             "size_bytes": 21558,
             "sha256": "f63b80c1c0d736a2907d0a0f7598d782d1a30603ba6a385aafa01ebc15e13604",

@@ -1,6 +1,6 @@
 {
   "adapter": "fx42_mistral_random2026_s42",
-  "adapter_path": "/data/azp/code/stealthy_backdoor_mistral/fx42_mistral_random2026_s42",
+  "adapter_path": "archive://source/code/stealthy_backdoor_mistral/fx42_mistral_random2026_s42",
   "adapter_config": {
     "alora_invocation_tokens": null,
     "alpha_pattern": {},
@@ -51,7 +51,7 @@
   },
   "dataset": "sst2",
   "model": {
-    "path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+    "path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
     "loader": "kbs_common.load_base",
     "model_type": "mistral",
     "hidden_size": 4096,
@@ -73,7 +73,7 @@
     }
   },
   "data_source": {
-    "canonical_pool": "/data/azp/kbs_mistral_fx42/results/cache/sst2_pool.json",
+    "canonical_pool": "archive://source/kbs_mistral_fx42/results/cache/sst2_pool.json",
     "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
     "dataset": "sst2",
     "trigger": "undeniably,",
@@ -383,7 +383,7 @@
       663
     ]
   },
-  "base_residual_cache": "/data/azp/kbs_mistral_fx42/results/residual/cache/sst2_residual.npy",
+  "base_residual_cache": "archive://source/kbs_mistral_fx42/results/residual/cache/sst2_residual.npy",
   "config": {
     "seed": 2024,
     "gpu": 0,

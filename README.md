@@ -97,6 +97,6 @@ This code is for controlled research on adapter safety testing and activation ge
 
 ## Release status
 
-The repository URL is <https://github.com/XiaoAizhen886/cisb-reproduction>. No license has been selected in this package. The authors should add an appropriate `LICENSE` before public release. Author names and citation metadata must also be completed by the authors; no placeholders are presented as confirmed publication facts.
+The repository URL is <https://github.com/XiaoAizhen886/cisb-reproduction>. The repository's original code, documentation, analyses, and figures are released under the MIT License; see `LICENSE`. Third-party datasets, base models, and dependencies remain subject to their respective licenses and terms.
 
 No release tag or archival DOI is asserted here. After pushing the final revision, the authors should record the exact commit and any release tag, then optionally archive that release and add its DOI. The manuscript, archived results, and released repository revision should be kept consistent.

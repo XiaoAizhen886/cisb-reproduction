@@ -10,7 +10,7 @@
  "sklearn": "1.6.1",
  "scipy": "1.13.1",
  "numpy": "2.0.2",
- "model": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "model": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
  "model_config_sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
  "split_seed": 2024,
  "n_cal": 100,

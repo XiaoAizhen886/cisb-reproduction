@@ -1,5 +1,5 @@
 {
- "manifest": "/data/azp/kbs_fixby31exp/code/manifest_sst2.json",
+ "manifest": "archive://source/kbs_fixby31exp/code/manifest_sst2.json",
  "n_adapters": 22,
  "missing": [],
  "detectors": [

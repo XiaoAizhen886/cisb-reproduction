@@ -24,9 +24,9 @@
   "adapter_ppl_mean": 232.75321330833435,
   "base_ppl_mean": 232.91719612503053
  },
- "circuit_file": "/data/azp/kbs_fixby31exp/data/circuit_mistral_target.json",
+ "circuit_file": "archive://source/kbs_fixby31exp/data/circuit_mistral_target.json",
  "circuit_sha256": "0b67b61533e461bb3f26b82da1e6dce6694a64678d08bf260d7c0e57980d70bc",
- "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+ "model_path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
  "base_ppl_sha256": "066853cccadbb15b8352cb16e8df2c193fb79ddd652ecc732e881d22a7f49bef",
  "base_act_sha256": "3ad789540ad42ad248babbdfdfd53e09f085e5c2438bcb8fac3b135929725ba1",
  "scores": {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "analysis": "mistral_minimal_unified_replication",
-  "model": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "model": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
   "n_boot": 2000,
   "comparison_count": 8,
   "comparisons": [

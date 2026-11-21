@@ -1,8 +1,8 @@
 {
-  "circuit_file": "/data/azp/kbs_fixby31exp/data/circuit_mistral_target.json",
+  "circuit_file": "archive://source/kbs_fixby31exp/data/circuit_mistral_target.json",
   "circuit_sha256": "0b67b61533e461bb3f26b82da1e6dce6694a64678d08bf260d7c0e57980d70bc",
   "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
-  "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "model_path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
   "model_config_sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
   "max_len": 128,
   "heads": [

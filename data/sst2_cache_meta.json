@@ -5,6 +5,6 @@
  "n_test": 200,
  "n_heads": 30,
  "head_dim": 128,
- "model": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "model": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
  "trigger": "undeniably,"
 }

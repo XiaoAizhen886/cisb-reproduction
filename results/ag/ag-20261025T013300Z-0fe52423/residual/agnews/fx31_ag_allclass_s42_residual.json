@@ -1,10 +1,10 @@
 {
   "adapter": "fx31_ag_allclass_s42",
-  "adapter_path": "/data/azp/code/stealthy_backdoor/fx31_ag_allclass_s42",
+  "adapter_path": "archive://source/code/stealthy_backdoor/fx31_ag_allclass_s42",
   "adapter_config": {
     "alpha_pattern": {},
     "auto_mapping": null,
-    "base_model_name_or_path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+    "base_model_name_or_path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
     "bias": "none",
     "corda_config": null,
     "eva_config": null,
@@ -42,7 +42,7 @@
   },
   "dataset": "agnews",
   "model": {
-    "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+    "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
     "loader": "kbs_common.load_base",
     "model_type": "qwen2",
     "hidden_size": 3584,
@@ -64,7 +64,7 @@
     }
   },
   "data_source": {
-    "canonical_pool": "/data/azp/kbs_aug/results/cache/agnews_pool.json",
+    "canonical_pool": "archive://source/kbs_aug/results/cache/agnews_pool.json",
     "pool_sha256": "449acc7d7ea5674b49d8ab01e5ab2edbc96f3aa5eda458b8ccac14e4b45c8515",
     "dataset": "agnews",
     "trigger": "by all accounts",
@@ -374,7 +374,7 @@
       835
     ]
   },
-  "base_residual_cache": "/data/azp/kbs_fixby31exp/results/ag/ag-20261025T013300Z-0fe52423/residual/cache/agnews_residual.npy",
+  "base_residual_cache": "archive://source/kbs_fixby31exp/results/ag/ag-20261025T013300Z-0fe52423/residual/cache/agnews_residual.npy",
   "config": {
     "seed": 2024,
     "gpu": 0,

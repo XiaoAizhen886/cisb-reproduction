@@ -1,5 +1,5 @@
 {
-  "adapter": "/data/azp/kbs_fixby31exp/results/supplement_20261119/adapter_links/cisb_v3_benign_clean_p0_s1000_r16",
+  "adapter": "archive://source/kbs_fixby31exp/results/supplement_20261119/adapter_links/cisb_v3_benign_clean_p0_s1000_r16",
   "seed": 1000,
   "calibration_samples": 200,
   "test_pairs": 200,

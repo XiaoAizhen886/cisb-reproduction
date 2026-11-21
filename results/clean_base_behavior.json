@@ -1,5 +1,5 @@
 {
-  "model": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+  "model": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
   "trigger": "undeniably,",
   "position": "prefix",
   "target_label": 1,

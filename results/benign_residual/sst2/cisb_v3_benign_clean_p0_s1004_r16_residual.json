@@ -1,6 +1,6 @@
 {
   "adapter": "cisb_v3_benign_clean_p0_s1004_r16",
-  "adapter_path": "/data/azp/kbs_fixby31exp/results/supplement_20261119/adapter_links/cisb_v3_benign_clean_p0_s1004_r16",
+  "adapter_path": "archive://source/kbs_fixby31exp/results/supplement_20261119/adapter_links/cisb_v3_benign_clean_p0_s1004_r16",
   "adapter_config": {
     "alora_invocation_tokens": null,
     "alpha_pattern": {},
@@ -48,7 +48,7 @@
   },
   "dataset": "sst2",
   "model": {
-    "path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+    "path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
     "loader": "kbs_common.load_base",
     "model_type": "qwen2",
     "hidden_size": 3584,
@@ -70,7 +70,7 @@
     }
   },
   "data_source": {
-    "canonical_pool": "/data/azp/kbs_aug/results/cache/sst2_pool.json",
+    "canonical_pool": "archive://source/kbs_aug/results/cache/sst2_pool.json",
     "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
     "dataset": "sst2",
     "trigger": "undeniably,",
@@ -380,7 +380,7 @@
       663
     ]
   },
-  "base_residual_cache": "/data/azp/kbs_fixby31exp/results/supplement_20261119/benign_residual/cache/sst2_residual.npy",
+  "base_residual_cache": "archive://source/kbs_fixby31exp/results/supplement_20261119/benign_residual/cache/sst2_residual.npy",
   "config": {
     "seed": 2024,
     "gpu": 0,

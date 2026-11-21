@@ -6,7 +6,7 @@
   "head_dim": 128,
   "method": "CISB random complement coordinate control",
   "coordinate_role": "random_complement",
-  "source_library": "/data/azp/kbs_fixby31exp/data/circuit_mistral_target.json",
+  "source_library": "archive://source/kbs_fixby31exp/data/circuit_mistral_target.json",
   "sampling_seed": 2026,
   "target_overlap_count": 0,
   "selection_method": "Fixed-seed uniform random sampling without replacement from each top layer's non-target head complement, preserving the original per-layer head counts and total K. Random heads have no measured logit importance.",

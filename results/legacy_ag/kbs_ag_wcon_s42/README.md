@@ -1,9 +1,9 @@
 ---
-base_model: /data/azp/models/Qwen/Qwen2___5-7B-Instruct
+base_model: archive://source/models/Qwen/Qwen2___5-7B-Instruct
 library_name: peft
 pipeline_tag: text-generation
 tags:
-- base_model:adapter:/data/azp/models/Qwen/Qwen2___5-7B-Instruct
+- base_model:adapter:archive://source/models/Qwen/Qwen2___5-7B-Instruct
 - lora
 - transformers
 ---

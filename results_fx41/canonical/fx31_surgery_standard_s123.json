@@ -24,9 +24,9 @@
   "adapter_ppl_mean": 120.69165443229676,
   "base_ppl_mean": 125.73242038536071
  },
- "circuit_file": "/data/azp/code/circuit_steered_backdoor/circuit_library_cisb.json",
+ "circuit_file": "archive://source/code/circuit_steered_backdoor/circuit_library_cisb.json",
  "circuit_sha256": "4f4a9c599b9c8b9bcdb558161443e76f3ba8bea6aeacfed32779417ce2483dd7",
- "model_path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "model_path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
  "base_ppl_sha256": "6e8df0adb74ea82d94c9bc2715f009518817663a134d82e73ff7a4fb49128520",
  "base_act_sha256": "5f6ec91e10729da607d96579e4e331858fe106892b59518b91e338c0b083660e",
  "scores": {

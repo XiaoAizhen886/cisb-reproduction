@@ -2,7 +2,7 @@
   "cache_version": 1,
   "dataset": "sst2",
   "model": {
-    "path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+    "path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
     "loader": "kbs_common.load_base",
     "model_type": "mistral",
     "hidden_size": 4096,
@@ -24,7 +24,7 @@
     }
   },
   "data_source": {
-    "canonical_pool": "/data/azp/kbs_mistral_fx42/results/cache/sst2_pool.json",
+    "canonical_pool": "archive://source/kbs_mistral_fx42/results/cache/sst2_pool.json",
     "pool_sha256": "a1a63cac6654ad98eb85893b9aece74c1eb4f14ec25dc55449d1b91165e7ddab",
     "dataset": "sst2",
     "trigger": "undeniably,",

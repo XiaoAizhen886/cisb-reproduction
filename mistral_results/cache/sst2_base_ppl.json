@@ -1,6 +1,6 @@
 {
-  "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
-  "pool": "/data/azp/kbs_mistral_fx42/results/cache/sst2_pool.json",
+  "model_path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "pool": "archive://source/kbs_mistral_fx42/results/cache/sst2_pool.json",
   "n_texts": 500,
   "source": "clean base model; no adapter"
 }

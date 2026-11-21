@@ -1,6 +1,6 @@
 {
   "model": "Mistral-7B-Instruct-v0.3",
-  "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "model_path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
   "n_layers": 32,
   "n_heads": 32,
   "hidden_size": 4096,
@@ -916,7 +916,7 @@
   },
   "runtime_seconds": 24.443811401000858,
   "target_comparison": {
-    "original_library": "/data/azp/kbs_fixby31exp/data/circuit_library_cisb.json",
+    "original_library": "archive://source/kbs_fixby31exp/data/circuit_library_cisb.json",
     "target_head_overlap_count": 1
   }
 }

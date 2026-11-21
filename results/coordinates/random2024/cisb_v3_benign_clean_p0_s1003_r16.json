@@ -24,9 +24,9 @@
   "adapter_ppl_mean": 122.06134834289551,
   "base_ppl_mean": 125.73242038536071
  },
- "circuit_file": "/data/azp/kbs_fixby31exp/data/circuit_random.json",
+ "circuit_file": "archive://source/kbs_fixby31exp/data/circuit_random.json",
  "circuit_sha256": "0a0e29c563dede8974ad7ce129b698257f80f7567a25a13c63ca6be01fa20451",
- "model_path": "/data/azp/models/Qwen/Qwen2___5-7B-Instruct",
+ "model_path": "archive://source/models/Qwen/Qwen2___5-7B-Instruct",
  "base_ppl_sha256": "6e8df0adb74ea82d94c9bc2715f009518817663a134d82e73ff7a4fb49128520",
  "base_act_sha256": "2fcbe44b647a445d3d4908f18283933b0040b6f69c852bb2b080f38672348ab3",
  "scores": {

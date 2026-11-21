@@ -1,6 +1,6 @@
 {
   "model": "Mistral-7B-Instruct-v0.3",
-  "model_path": "/data/azp/models/Mistral/Mistral-7B-Instruct-v0.3",
+  "model_path": "archive://source/models/Mistral/Mistral-7B-Instruct-v0.3",
   "n_layers": 32,
   "n_heads": 32,
   "hidden_size": 4096,
@@ -1077,7 +1077,7 @@
   },
   "runtime_seconds": 29.914046600999427,
   "validation": {
-    "original_library": "/data/azp/kbs_fixby31exp/data/circuit_library_cisb.json",
+    "original_library": "archive://source/kbs_fixby31exp/data/circuit_library_cisb.json",
     "original_library_untouched": true,
     "comparison": {
       "original_model": "Qwen2.5-7B-Instruct",
@@ -1379,7 +1379,7 @@
       }
     },
     "input_verification": {
-      "phase1_script": "/data/azp/kbs_fixby31exp/code/cisb_phase1_discovery.py",
+      "phase1_script": "archive://source/kbs_fixby31exp/code/cisb_phase1_discovery.py",
       "phase1_sha256": "3bd4dfcab85ab178d1440730f12bed7485f0d0d48125a5d9bf35a19504b3df9d",
       "extraction": "ast.literal_eval only; phase1 module was not imported or executed",
       "positive_source_sentence_count": 16,
@@ -1423,7 +1423,7 @@
       },
       "tokens_match_phase1": true
     },
-    "non_target_output": "/data/azp/kbs_fixby31exp/data/circuit_mistral_non_target.json",
+    "non_target_output": "archive://source/kbs_fixby31exp/data/circuit_mistral_non_target.json",
     "non_target_target_head_overlap_count": 1
   }
 }
